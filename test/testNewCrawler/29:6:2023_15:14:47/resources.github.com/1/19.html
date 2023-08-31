@@ -1,0 +1,2678 @@
+<!doctype html>
+
+
+
+
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta http-equiv="content-language" content="en-US">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="google-site-verification" content="c1kuD-K2HIVF635lypcsWPoD4kilo5-jA_wBFyT4uMY" />
+
+
+
+
+     <link rel="icon" type="image/x-icon" href="/favicon-dev.png">
+
+  <link rel="canonical" href="https://resources.github.com/devops/" />
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
+
+  <link rel="stylesheet" type="text/css" href="/assets/css/index.css">
+  <link href="https://github.github.com/fonts/alliance/alliance.css" rel="stylesheet">
+
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+  <script>
+    function doNotTrackEnabled() {
+      if (window.doNotTrack && window.doNotTrack == "1") {
+        return true;
+      }
+      if (navigator.doNotTrack && navigator.doNotTrack == "1") {
+        return true;
+      }
+      return false;
+    }
+
+  </script>
+
+  <!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>What is DevOps? DevOps, CI/CD and DevSecOps Defined | GitHub Resources</title>
+<meta name="generator" content="Jekyll v3.7.4" />
+<meta property="og:title" content="What is DevOps? DevOps, CI/CD and DevSecOps Defined" />
+<meta name="author" content="GitHub" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="DevOps, CI/CD and DevSecOps are a philosophy and set of practices that brings development and operations while incorporating CI/CD and Security together to deliver software faster." />
+<meta property="og:description" content="DevOps, CI/CD and DevSecOps are a philosophy and set of practices that brings development and operations while incorporating CI/CD and Security together to deliver software faster." />
+<meta property="og:site_name" content="GitHub Resources" />
+<meta property="og:image" content="https://resources.github.com/assets/img/devops/social-card.png" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@github" />
+<meta name="twitter:creator" content="@GitHub" />
+<script type="application/ld+json">
+{"headline":"What is DevOps? DevOps, CI/CD and DevSecOps Defined","url":"https://resources.github.com/devops/","image":"https://resources.github.com/assets/img/devops/social-card.png","author":{"@type":"Person","name":"GitHub"},"description":"DevOps, CI/CD and DevSecOps are a philosophy and set of practices that brings development and operations while incorporating CI/CD and Security together to deliver software faster.","@type":"WebPage","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<script defer src="/assets/js/fullStory.js"></script>
+
+</head>
+
+
+  <body class=" emoji-size-boost page-responsive">
+    <main>
+
+
+
+
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is DevOps?","acceptedAnswer":{"@type":"Answer","text":"A combination of the words “development” and “operations,” DevOps is a philosophy and set of practices that brings teams together to deliver better software, faster.  "}},{"@type":"Question","name":"Why adopt DevOps? ","acceptedAnswer":{"@type":"Answer","text":"Traditional deployments are difficult, manual, and often break down, leading to employee burnout and unsustainable release cycles. In comparison, recent research shows that using DevOps methodologies and principles like automation drive productivity and improve developer experience. DevOps makes building and shipping software faster, friendlier, and more collaborative—and automates almost all of the process. Developers can focus on their goals, prioritize work-life balance, and get more time for the projects they care about. This type of satisfaction builds on what we know from organizational psychology: Teams do their best work when they’re personally invested in the outcome. \n\nImproved productivity \nReduce manual tasks and gain consistency, reliability, and efficiency.\n\nCloud access\nUse the cloud to easily provision environments so teams can get to work faster and scale services to meet demand.\n\nSecurity\nProtect customers and code while managing access across locations and environments. \n\nCollaboration\nBuild and foster a collaborative culture with b communication."}},{"@type":"Question","name":"What is DevSecOps?","acceptedAnswer":{"@type":"Answer","text":"Like development and operations, DevSecOps integrates security testing and automation into every part of the DevOps pipeline."}},{"@type":"Question","name":"What is CI/CD? ","acceptedAnswer":{"@type":"Answer","text":"Continuous integration and continuous delivery (CI/CD) combines every step of the software release process into one integrated workflow. Developers continuously build, test, and deploy code to production using a series of automated tools that power the team’s overall DevOps pipeline. "}},{"@type":"Question","name":"What can you do with DevOps?","acceptedAnswer":{"@type":"Answer","text":"See how high-performing teams put collaboration and automation to work. \n\n - Building a cohesive DevOps technology stack. \n - Standardizing to support innersource and scalability. \n - Modernizing infrastructure and developer tooling. \n - Bringing automated security to CI/CD pipelines. \n - Improving collaboration and reliability in the cloud. "}}]}</script>
+
+<header class="Header header-logged-out js-details-container Details position-relative f4 py-2" role="banner">
+  <div class="container-xl width-full d-lg-flex flex-items-center px-3 px-md-4">
+    <div class="d-flex flex-justify-between flex-items-center">
+      <a class="mr-4" href="https://github.com/" aria-label="Homepage" data-analytics-click="GitHub Resources, go to Homepage, github resources main nav (invertocat logo)">
+        <svg height="32" class="octicon octicon-mark-github color-text-white" aria-label="github-logo" viewBox="0 0 16 16" version="1.1" width="32" role="img"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg>
+      </a>
+
+      <div class="d-flex flex-items-center">
+        <button class="btn-link d-lg-none mt-1 js-details-target" type="button" aria-label="Toggle navigation" aria-expanded="false">
+          <svg height="24" class="octicon octicon-three-bars color-text-white" aria-label="menu" viewBox="0 0 16 16" version="1.1" width="24" role="img"><path fill-rule="evenodd" d="M1 2.75A.75.75 0 011.75 2h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 2.75zm0 5A.75.75 0 011.75 7h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 7.75zM1.75 12a.75.75 0 100 1.5h12.5a.75.75 0 100-1.5H1.75z"></path></svg>
+        </button>
+      </div>
+    </div>
+
+    <div class="HeaderMenu HeaderMenu--logged-out position-fixed top-0 right-0 bottom-0 height-fit position-lg-relative d-lg-flex flex-justify-between flex-items-center flex-auto">
+      <div class="d-flex d-lg-none flex-justify-end border-bottom color-bg-secondary p-3">
+        <button class="btn-link js-details-target" type="button" aria-label="Toggle navigation" aria-expanded="false">
+          <svg height="24" class="octicon octicon-x text-gray" aria-label="close" viewBox="0 0 24 24" version="1.1" width="24" role="img"><path fill-rule="evenodd" d="M5.72 5.72a.75.75 0 011.06 0L12 10.94l5.22-5.22a.75.75 0 111.06 1.06L13.06 12l5.22 5.22a.75.75 0 11-1.06 1.06L12 13.06l-5.22 5.22a.75.75 0 01-1.06-1.06L10.94 12 5.72 6.78a.75.75 0 010-1.06z"></path></svg>
+        </button>
+      </div>
+
+      <nav class="mt-0 px-3 px-lg-0 mb-3 mb-lg-0" aria-label="Global">
+        <ul class="d-lg-flex list-style-none">
+
+            <li class="border-bottom border-lg-bottom-0 mr-0 mr-lg-3 d-block d-lg-flex flex-lg-nowrap flex-lg-items-center edge-item-fix position-relative flex-wrap flex-justify-between d-flex flex-items-center">
+
+                <details class="HeaderMenu-details details-overlay details-reset width-full">
+                  <summary class="HeaderMenu-summary HeaderMenu-link px-0 py-3 border-0 no-wrap d-block d-lg-inline-block">
+                    Why GitHub?
+                    <svg x="0px" y="0px" viewBox="0 0 14 8" xml:space="preserve" fill="none" class="icon-chevon-down-mktg position-absolute position-lg-relative">
+                      <path d="M1,1l6.2,6L13,1"></path>
+                    </svg>
+                  </summary>
+                  <div class="dropdown-menu flex-auto rounded px-0 mt-0 pb-4 p-lg-4 position-relative position-lg-absolute left-0 left-lg-n4">
+
+
+                        <a href="https://github.com/features" class="py-2 lh-condensed-ultra d-block Link--primary no-underline h5 Bump-link--hover">
+                          Features
+                        </a>
+                        <ul class="list-style-none f5 border-lg-bottom pb-lg-3 mb-lg-3">
+
+                            <li class="edge-item-fix">
+                              <a href="https://github.com/mobile" data-analytics-click="GitHub Resources, go to mobile, github resources main nav" class="py-2 lh-condensed-ultra d-block Link--secondary no-underline f5 Bump-link--hover">
+                                Mobile
+                                <span class="Bump-link-symbol float-right text-normal color-text-tertiary pr-3">&rarr;</span>
+                              </a>
+                            </li>
+
+                            <li class="edge-item-fix">
+                              <a href="https://github.com/features/actions" data-analytics-click="GitHub Resources, go to actions, github resources main nav" class="py-2 lh-condensed-ultra d-block Link--secondary no-underline f5 Bump-link--hover">
+                                Actions
+                                <span class="Bump-link-symbol float-right text-normal color-text-tertiary pr-3">&rarr;</span>
+                              </a>
+                            </li>
+
+                            <li class="edge-item-fix">
+                              <a href="https://github.com/features/codespaces" data-analytics-click="GitHub Resources, go to codespaces, github resources main nav" class="py-2 lh-condensed-ultra d-block Link--secondary no-underline f5 Bump-link--hover">
+                                Codespaces
+                                <span class="Bump-link-symbol float-right text-normal color-text-tertiary pr-3">&rarr;</span>
+                              </a>
+                            </li>
+
+                            <li class="edge-item-fix">
+                              <a href="https://github.com/features/packages" data-analytics-click="GitHub Resources, go to packages, github resources main nav" class="py-2 lh-condensed-ultra d-block Link--secondary no-underline f5 Bump-link--hover">
+                                Packages
+                                <span class="Bump-link-symbol float-right text-normal color-text-tertiary pr-3">&rarr;</span>
+                              </a>
+                            </li>
+
+                            <li class="edge-item-fix">
+                              <a href="https://github.com/features/security" data-analytics-click="GitHub Resources, go to security, github resources main nav" class="py-2 lh-condensed-ultra d-block Link--secondary no-underline f5 Bump-link--hover">
+                                Security
+                                <span class="Bump-link-symbol float-right text-normal color-text-tertiary pr-3">&rarr;</span>
+                              </a>
+                            </li>
+
+                            <li class="edge-item-fix">
+                              <a href="https://github.com/features/code-review" data-analytics-click="GitHub Resources, go to code review, github resources main nav" class="py-2 lh-condensed-ultra d-block Link--secondary no-underline f5 Bump-link--hover">
+                                Code review
+                                <span class="Bump-link-symbol float-right text-normal color-text-tertiary pr-3">&rarr;</span>
+                              </a>
+                            </li>
+
+                            <li class="edge-item-fix">
+                              <a href="https://github.com/features/project-management" data-analytics-click="GitHub Resources, go to project management, github resources main nav" class="py-2 lh-condensed-ultra d-block Link--secondary no-underline f5 Bump-link--hover">
+                                Project management
+                                <span class="Bump-link-symbol float-right text-normal color-text-tertiary pr-3">&rarr;</span>
+                              </a>
+                            </li>
+
+                            <li class="edge-item-fix">
+                              <a href="https://github.com/features/integrations" data-analytics-click="GitHub Resources, go to integrations, github resources main nav" class="py-2 lh-condensed-ultra d-block Link--secondary no-underline f5 Bump-link--hover">
+                                Integrations
+                                <span class="Bump-link-symbol float-right text-normal color-text-tertiary pr-3">&rarr;</span>
+                              </a>
+                            </li>
+
+                        </ul>
+
+
+
+                        <div class="edge-item-fix">
+                          <a href="https://github.com/sponsors" data-analytics-click="GitHub Resources, go to github sponsors, github resources main nav" class="py-2 lh-condensed-ultra d-block no-underline Link--primary no-underline h5 Bump-link--hover">
+                            GitHub Sponsors
+                            <span class="Bump-link-symbol float-right text-normal color-text-tertiary pr-3">&rarr;</span>
+                          </a>
+                        </div>
+
+
+
+                        <div class="edge-item-fix">
+                          <a href="https://github.com/customer-stories" data-analytics-click="GitHub Resources, go to customer stories, github resources main nav" class="py-2 lh-condensed-ultra d-block no-underline Link--primary no-underline h5 Bump-link--hover">
+                            Customer stories
+                            <span class="Bump-link-symbol float-right text-normal color-text-tertiary pr-3">&rarr;</span>
+                          </a>
+                        </div>
+
+
+                  </div>
+                </details>
+
+            </li>
+
+            <li class="border-bottom border-lg-bottom-0 mr-0 mr-lg-3">
+
+
+                  <a href="https://github.com/team" class="HeaderMenu-link no-underline py-3 d-block d-lg-inline-block" data-analytics-click="GitHub Resources, go to team, github resources main nav">
+                    Team
+                  </a>
+
+
+            </li>
+
+            <li class="border-bottom border-lg-bottom-0 mr-0 mr-lg-3">
+
+
+                  <a href="https://github.com/enterprise" class="HeaderMenu-link no-underline py-3 d-block d-lg-inline-block" data-analytics-click="GitHub Resources, go to enterprise, github resources main nav">
+                    Enterprise
+                  </a>
+
+
+            </li>
+
+            <li class="border-bottom border-lg-bottom-0 mr-0 mr-lg-3 d-block d-lg-flex flex-lg-nowrap flex-lg-items-center edge-item-fix position-relative flex-wrap flex-justify-between d-flex flex-items-center">
+
+                <details class="HeaderMenu-details details-overlay details-reset width-full">
+                  <summary class="HeaderMenu-summary HeaderMenu-link px-0 py-3 border-0 no-wrap d-block d-lg-inline-block">
+                    Explore
+                    <svg x="0px" y="0px" viewBox="0 0 14 8" xml:space="preserve" fill="none" class="icon-chevon-down-mktg position-absolute position-lg-relative">
+                      <path d="M1,1l6.2,6L13,1"></path>
+                    </svg>
+                  </summary>
+                  <div class="dropdown-menu flex-auto rounded px-0 mt-0 pb-4 p-lg-4 position-relative position-lg-absolute left-0 left-lg-n4">
+
+
+                        <div class="edge-item-fix">
+                          <a href="https://github.com/explore" data-analytics-click="GitHub Resources, go to explore github, github resources main nav" class="py-2 lh-condensed-ultra d-block no-underline Link--primary no-underline h5 Bump-link--hover">
+                            Explore GitHub
+                            <span class="Bump-link-symbol float-right text-normal color-text-tertiary pr-3">&rarr;</span>
+                          </a>
+                        </div>
+
+
+
+
+                          <div class="border-lg-top pt-lg-3 mt-lg-3">
+                            <h4 class="color-text-tertiary text-normal text-mono f5 mb-2">
+                              Learn and contribute
+                            </h4>
+                            <ul class="list-style-none f5">
+
+                                <li class="edge-item-fix">
+                                  <a href="https://github.com/topics" data-analytics-click="GitHub Resources, go to topics, github resources main nav" class="py-2 lh-condensed-ultra d-block Link--secondary no-underline f5 Bump-link--hover">
+                                    Topics
+                                    <span class="Bump-link-symbol float-right text-normal color-text-tertiary pr-3">&rarr;</span>
+                                  </a>
+                                </li>
+
+                                <li class="edge-item-fix">
+                                  <a href="https://github.com/collections" data-analytics-click="GitHub Resources, go to collections, github resources main nav" class="py-2 lh-condensed-ultra d-block Link--secondary no-underline f5 Bump-link--hover">
+                                    Collections
+                                    <span class="Bump-link-symbol float-right text-normal color-text-tertiary pr-3">&rarr;</span>
+                                  </a>
+                                </li>
+
+                                <li class="edge-item-fix">
+                                  <a href="https://github.com/trending" data-analytics-click="GitHub Resources, go to trending, github resources main nav" class="py-2 lh-condensed-ultra d-block Link--secondary no-underline f5 Bump-link--hover">
+                                    Trending
+                                    <span class="Bump-link-symbol float-right text-normal color-text-tertiary pr-3">&rarr;</span>
+                                  </a>
+                                </li>
+
+                                <li class="edge-item-fix">
+                                  <a href="https://lab.github.com" data-analytics-click="GitHub Resources, go to learning lab, github resources main nav" class="py-2 lh-condensed-ultra d-block Link--secondary no-underline f5 Bump-link--hover">
+                                    Learning Lab
+                                    <span class="Bump-link-symbol float-right text-normal color-text-tertiary pr-3">&rarr;</span>
+                                  </a>
+                                </li>
+
+                                <li class="edge-item-fix">
+                                  <a href="https://opensource.guide" data-analytics-click="GitHub Resources, go to open source guides, github resources main nav" class="py-2 lh-condensed-ultra d-block Link--secondary no-underline f5 Bump-link--hover">
+                                    Open source guides
+                                    <span class="Bump-link-symbol float-right text-normal color-text-tertiary pr-3">&rarr;</span>
+                                  </a>
+                                </li>
+
+                            </ul>
+                          </div>
+
+                          <div class="border-lg-top pt-lg-3 mt-lg-3">
+                            <h4 class="color-text-tertiary text-normal text-mono f5 mb-2">
+                              Connect with others
+                            </h4>
+                            <ul class="list-style-none f5">
+
+                                <li class="edge-item-fix">
+                                  <a href="https://github.com/readme" data-analytics-click="GitHub Resources, go to the readme project, github resources main nav" class="py-2 lh-condensed-ultra d-block Link--secondary no-underline f5 Bump-link--hover">
+                                    The ReadME Project
+                                    <span class="Bump-link-symbol float-right text-normal color-text-tertiary pr-3">&rarr;</span>
+                                  </a>
+                                </li>
+
+                                <li class="edge-item-fix">
+                                  <a href="https://github.com/events" data-analytics-click="GitHub Resources, go to events, github resources main nav" class="py-2 lh-condensed-ultra d-block Link--secondary no-underline f5 Bump-link--hover">
+                                    Events
+                                    <span class="Bump-link-symbol float-right text-normal color-text-tertiary pr-3">&rarr;</span>
+                                  </a>
+                                </li>
+
+                                <li class="edge-item-fix">
+                                  <a href="https://github.community" data-analytics-click="GitHub Resources, go to community forum, github resources main nav" class="py-2 lh-condensed-ultra d-block Link--secondary no-underline f5 Bump-link--hover">
+                                    Community forum
+                                    <span class="Bump-link-symbol float-right text-normal color-text-tertiary pr-3">&rarr;</span>
+                                  </a>
+                                </li>
+
+                                <li class="edge-item-fix">
+                                  <a href="https://education.github.com" data-analytics-click="GitHub Resources, go to github education, github resources main nav" class="py-2 lh-condensed-ultra d-block Link--secondary no-underline f5 Bump-link--hover">
+                                    GitHub Education
+                                    <span class="Bump-link-symbol float-right text-normal color-text-tertiary pr-3">&rarr;</span>
+                                  </a>
+                                </li>
+
+                                <li class="edge-item-fix">
+                                  <a href="https://stars.github.com" data-analytics-click="GitHub Resources, go to github stars program, github resources main nav" class="py-2 lh-condensed-ultra d-block Link--secondary no-underline f5 Bump-link--hover">
+                                    GitHub Stars program
+                                    <span class="Bump-link-symbol float-right text-normal color-text-tertiary pr-3">&rarr;</span>
+                                  </a>
+                                </li>
+
+                            </ul>
+                          </div>
+
+
+
+                  </div>
+                </details>
+
+            </li>
+
+            <li class="border-bottom border-lg-bottom-0 mr-0 mr-lg-3">
+
+
+                  <a href="https://github.com/marketplace" class="HeaderMenu-link no-underline py-3 d-block d-lg-inline-block" data-analytics-click="GitHub Resources, go to marketplace, github resources main nav">
+                    Marketplace
+                  </a>
+
+
+            </li>
+
+            <li class="border-bottom border-lg-bottom-0 mr-0 mr-lg-3 d-block d-lg-flex flex-lg-nowrap flex-lg-items-center edge-item-fix position-relative flex-wrap flex-justify-between d-flex flex-items-center">
+
+                <details class="HeaderMenu-details details-overlay details-reset width-full">
+                  <summary class="HeaderMenu-summary HeaderMenu-link px-0 py-3 border-0 no-wrap d-block d-lg-inline-block">
+                    Pricing
+                    <svg x="0px" y="0px" viewBox="0 0 14 8" xml:space="preserve" fill="none" class="icon-chevon-down-mktg position-absolute position-lg-relative">
+                      <path d="M1,1l6.2,6L13,1"></path>
+                    </svg>
+                  </summary>
+                  <div class="dropdown-menu flex-auto rounded px-0 mt-0 pb-4 p-lg-4 position-relative position-lg-absolute left-0 left-lg-n4">
+
+
+                        <a href="https://github.com/pricing" class="py-2 lh-condensed-ultra d-block Link--primary no-underline h5 Bump-link--hover">
+                          Plans
+                        </a>
+                        <ul class="list-style-none f5 border-lg-bottom pb-lg-3 mb-lg-3">
+
+                            <li class="edge-item-fix">
+                              <a href="https://github.com/pricing#feature-comparison" data-analytics-click="GitHub Resources, go to compare plans, github resources main nav" class="py-2 lh-condensed-ultra d-block Link--secondary no-underline f5 Bump-link--hover">
+                                Compare plans
+                                <span class="Bump-link-symbol float-right text-normal color-text-tertiary pr-3">&rarr;</span>
+                              </a>
+                            </li>
+
+                            <li class="edge-item-fix">
+                              <a href="https://enterprise.github.com/contact" data-analytics-click="GitHub Resources, go to contact sales, github resources main nav" class="py-2 lh-condensed-ultra d-block Link--secondary no-underline f5 Bump-link--hover">
+                                Contact Sales
+                                <span class="Bump-link-symbol float-right text-normal color-text-tertiary pr-3">&rarr;</span>
+                              </a>
+                            </li>
+
+                        </ul>
+
+
+
+                        <div class="edge-item-fix">
+                          <a href="https://education.github.com" data-analytics-click="GitHub Resources, go to education, github resources main nav" class="py-2 lh-condensed-ultra d-block no-underline Link--primary no-underline h5 Bump-link--hover">
+                            Education
+                            <span class="Bump-link-symbol float-right text-normal color-text-tertiary pr-3">&rarr;</span>
+                          </a>
+                        </div>
+
+
+                  </div>
+                </details>
+
+            </li>
+
+        </ul>
+      </nav>
+
+      <div class="d-lg-none px-3 px-lg-0 text-center text-lg-left">
+        <a href="https://github.com/organizations/enterprise_plan" data-analytics-click="GitHub Resources, go to Start a free trial, github resources main nav" class="btn btn-block btn-mktg py-2 px-3 f5 my-2">Start a free trial</a>
+      </div>
+
+      <div class="d-lg-none px-3 px-lg-0 text-center text-lg-left">
+        <a href="https://github.com/enterprise/contact" data-analytics-click="GitHub Resources, go to Contact sales, github resources main nav" class="btn btn-block btn-outline py-2 px-3 f5 my-2">Contact sales</a>
+      </div>
+
+      <div class="d-lg-flex flex-items-center px-3 px-lg-0 pt-2 text-center text-lg-left">
+        <a class="HeaderMenu-link no-underline mr-3" href="https://github.com/login?return_to=%2Fjoin%3Fsource%3Dheader-home" data-analytics-click="GitHub Resources, go to Sign in, github resources main nav">Sign&nbsp;in</a>
+        <a class="HeaderMenu-link d-inline-block no-underline border border-gray-dark rounded-1 px-2 py-1" href="https://github.com/join?source=header-home" data-analytics-click="GitHub Resources, go to Sign up, github resources main nav">Sign&nbsp;up</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+
+<!--
+  ***
+  Page content begins below this block
+  ***
+-->
+
+<div class="bg-primary--inverted position-relative">
+
+    <img src="/assets/img/devops/hero.png" alt="" class="width-fit img-translucent pb-8 pb-sm-0">
+    <div class="position-absolute top-0 left-0 height-full d-flex flex-items-center flex-justify-center">
+      <div class="container-xl p-responsive">
+        <div class="gloss-c-seo-hero gloss-c-hero offset-md-1 offset-lg-2">
+          <div class="gloss-c-pairing-7 gloss-c-pairing--inverted">
+            <h1>What is DevOps?</h1>
+            <img src="/assets/img/devops/hero-subtitle.svg" class="width-fit" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+
+</div>
+
+<div class="container-xl p-responsive">
+  <div class="mx-auto col-md-10 col-lg-8">
+
+
+</div></div>
+<div class="gloss-c-tab-bar gloss-c-tab-bar--btn-visible gloss-c-tab-bar--open">
+  <div class="container-xl p-responsive">
+    <div class="gloss-c-tab-bar__container">
+      <details class="gloss-c-tab-bar__nav" open="">
+        <summary class="gloss-c-tab-bar__toggle">
+          <svg class="octicon mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M12.78 6.22a.75.75 0 010 1.06l-4.25 4.25a.75.75 0 01-1.06 0L3.22 7.28a.75.75 0 011.06-1.06L8 9.94l3.72-3.72a.75.75 0 011.06 0z"></path></svg>Jump to
+        </summary>
+
+        <nav class="d-flex flex-wrap flex-items-start flex-md-items-center flex-lg-justify-between flex-column flex-md-row">
+          <a href="#overview" class="gloss-c-tab-bar__link">Overview</a>
+          <a href="#devops-benefits" class="gloss-c-tab-bar__link">DevOps benefits</a>
+          <a href="https://resources.github.com/ci-cd" class="gloss-c-tab-bar__link">DevOps and CI/CD</a>
+          <a href="#devsecops" class="gloss-c-tab-bar__link">DevSecOps</a>
+          <a href="#examples" class="gloss-c-tab-bar__link">Examples</a>
+        </nav>
+      </details>
+
+      <div class="gloss-c-tab-bar__btn">
+
+          <button class="gloss-c-btn gloss-c-btn--primary" data-toggle="modal" data-target="#devopsForm" data-analytics-click="GitHub Resources, click to Request a demo, top tab nav">
+
+          Request a demo<svg width="16" height="16" viewBox="0 0 16 16" class="octicon octicon-chevrow" xmlns="http://www.w3.org/2000/svg">
+            <path class="octicon-chevrow-right" d="M9.28033 2.96967C8.98744 2.67678 8.51256 2.67678 8.21967 2.96967C7.92678 3.26256 7.92678 3.73744 8.21967 4.03033L9.28033 2.96967ZM13 7.75L13.5303 8.28033C13.8232 7.98744 13.8232 7.51256 13.5303 7.21967L13 7.75ZM8.21967 11.4697C7.92678 11.7626 7.92678 12.2374 8.21967 12.5303C8.51256 12.8232 8.98744 12.8232 9.28033 12.5303L8.21967 11.4697ZM8.21967 4.03033L12.4697 8.28033L13.5303 7.21967L9.28033 2.96967L8.21967 4.03033ZM12.4697 7.21967L8.21967 11.4697L9.28033 12.5303L13.5303 8.28033L12.4697 7.21967Z"></path>
+            <path class="octicon-chevrow-stem" d="M3.75 7.75H13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
+          </svg>
+
+          </button>
+
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container-xl p-responsive">
+  <div class="mx-auto col-md-10 col-lg-8">
+
+
+<div class="gloss-c-section-heading mt-8 mt-md-10 mb-4" id="overview">
+  <div class="gloss-c-pairing-5">
+
+      <span class="h2 col-8-max" data-title="Defining DevOps"></span>
+
+
+
+
+
+  </div>
+</div>
+
+
+<div class="d-flex flex-items-center mb-4 gloss-c-pairing-3">
+  <div class="d-flex flex-justify-center flex-items-center text-center circle color-bg-tertiary p-3" style="width: 72px; height: 72px">
+    <svg class="octicon octicon-info color-icon-secondary" height="24" viewBox="0 0 24 24" version="1.1" width="24" aria-hidden="true"><path d="M13 7.5a1 1 0 11-2 0 1 1 0 012 0zm-3 3.75a.75.75 0 01.75-.75h1.5a.75.75 0 01.75.75v4.25h.75a.75.75 0 010 1.5h-3a.75.75 0 010-1.5h.75V12h-.75a.75.75 0 01-.75-.75z"></path><path fill-rule="evenodd" d="M12 1C5.925 1 1 5.925 1 12s4.925 11 11 11 11-4.925 11-11S18.075 1 12 1zM2.5 12a9.5 9.5 0 1119 0 9.5 9.5 0 01-19 0z"></path></svg>
+  </div>
+  <div class="mb-0 flex-1 ml-3 tldr">
+    <p class="d-inline gloss-c-pairing__emphasis">A combination of the words “development” and “operations,” DevOps is a philosophy and set of practices that brings teams together to deliver better software, faster.</p>
+  </div>
+</div>
+
+
+<div class="mt-4 mb-0  ml-4 "  style="float: right;">
+  <iframe width=" 500 " height=" 281 " src="https://www.youtube.com/embed/kBV8gPVZNEE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+
+<div class="gloss-c-section-heading mt-6 mb-4">
+  <div class="gloss-c-pairing-5">
+    <div class="mb-6 gloss-c-pairing-5">
+      <p>What do we mean when we say <a href='https://github.blog/2020-10-07-devops-definition' target='_blank'>DevOps</a>? A culture shift? A set of best practices? Specific tooling? In reality, it’s a combination of all three. DevOps is a way of working where development, IT operations, and security teams partner together to build, test, and provide regular feedback throughout the entire software development lifecycle (SDLC). From culture change to automation with CI/CD, let’s explore how DevOps teams develop shared context, expertise, tooling, and roles to ship better products.</p>
+
+
+    </div>
+  </div>
+</div>
+
+
+
+<div class="mt-8 mb-4">
+  <div class="gloss-c-pairing-2 mb-2">
+    <h3>The journey from silos to shared workflows</h3>
+  </div>
+  <div class="gloss-c-product-sequence mb-6 color-bg-canvas-inverse box-shadow-default-mktg rounded-2">
+    <img src="/assets/img/devops/journey.png" alt="" class="width-fit mx-auto">
+  </div>
+</div>
+
+
+<div class="gloss-c-section-heading mt-6 mb-4">
+  <div class="gloss-c-pairing-5">
+    <div class="mb-6 gloss-c-pairing-5">
+      <p>DevOps sets a new standard for how we build software. Before the mid-2000s, developers, IT operations, and security teams typically worked in silos. Developers wrote code, QA teams tested it, and IT operations teams deployed it to production. Security teams checked code for vulnerabilities only after deployment. If someone reported an issue, the entire process started over again. This linear approach to software was slow and frustrating for everyone involved. Then in 2008, system administrator Patrick Debois and software developer Andrew Shafer created a working group to help bridge the gap between operations and development teams. Their best practices became the DevOps processes we know today.</p>
+
+
+      <a href="https://www.youtube.com/watch?v=y6ZSgiBHLXc&list=PL0lo9MOBetEGx6P7vI85aDfD4I2WNMdUG&index=8" class="gloss-c-link--lg">
+        <span class="gloss-c-link__text">
+          Learn more about the history of DevOps<svg class="octicon octicon-chevrow" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path class="octicon-chevrow-right" fill="currentColor" d="M7.28033 3.21967C6.98744 2.92678 6.51256 2.92678 6.21967 3.21967C5.92678 3.51256 5.92678 3.98744 6.21967 4.28033L7.28033 3.21967ZM11 8L11.5303 8.53033C11.8232 8.23744 11.8232 7.76256 11.5303 7.46967L11 8ZM6.21967 11.7197C5.92678 12.0126 5.92678 12.4874 6.21967 12.7803C6.51256 13.0732 6.98744 13.0732 7.28033 12.7803L6.21967 11.7197ZM6.21967 4.28033L10.4697 8.53033L11.5303 7.46967L7.28033 3.21967L6.21967 4.28033ZM10.4697 7.46967L6.21967 11.7197L7.28033 12.7803L11.5303 8.53033L10.4697 7.46967Z"></path>
+            <path class="octicon-chevrow-stem" stroke="currentColor" d="M1.75 8H11" stroke-width="1.5" stroke-linecap="round"></path>
+          </svg>
+        </span>
+      </a>
+
+    </div>
+  </div>
+</div>
+
+
+<div class="gloss-c-section-heading mt-8 mt-md-10 mb-4" id="devops-benefits">
+  <div class="gloss-c-pairing-5">
+
+      <h2 class="col-8-max">
+        <span>
+          Why adopt DevOps?
+        </span>
+      </h2>
+
+
+
+
+
+      <div class="mb-6 gloss-c-pairing-5">
+        <p>Traditional deployments are difficult, manual, and often break down, leading to employee burnout and unsustainable release cycles.  In comparison, <a href='https://octoverse.github.com/' target='_blank'>recent research</a> shows that using DevOps methodologies and principles like automation drives productivity and improves developer experience. DevOps makes building and shipping software faster, friendlier, and more collaborative—and automates almost all of the process. Developers on DevOps teams focus on their goals, prioritize work-life balance, and get more time for the projects they care about. This type of satisfaction builds on what we know from organizational psychology: Teams do their best work when they’re personally invested in the outcome.</p>
+
+
+      </div>
+
+  </div>
+</div>
+
+
+<div class="d-flex flex-md-row mb-4">
+  <div class="d-flex flex-justify-center flex-items-center text-center circle color-bg-tertiary p-3 gloss-icon mr-4 mb-2">
+    <svg class="octicon octicon-graph color-icon-secondary" height="24" viewBox="0 0 24 24" version="1.1" width="24" aria-hidden="true"><path d="M2.5 2.75a.75.75 0 00-1.5 0v18.5c0 .414.336.75.75.75H20a.75.75 0 000-1.5H2.5V2.75z"></path><path d="M22.28 7.78a.75.75 0 00-1.06-1.06l-5.72 5.72-3.72-3.72a.75.75 0 00-1.06 0l-6 6a.75.75 0 101.06 1.06l5.47-5.47 3.72 3.72a.75.75 0 001.06 0l6.25-6.25z"></path></svg>
+  </div>
+  <div class="gloss-c-pairing-2 mr-3">
+    <h3>
+      Improved productivity
+    </h3>
+    <p>
+
+        <a href='https://www.youtube.com/watch?v=EyiYQAD3Gug' target='_blank'>Reduce manual tasks</a> and gain consistency, reliability, and efficiency.
+
+    </p>
+
+  </div>
+</div>
+
+<div class="d-flex flex-md-row mb-4">
+  <div class="d-flex flex-justify-center flex-items-center text-center circle color-bg-tertiary p-3 gloss-icon mr-4 mb-2">
+    <svg class="octicon octicon-container color-icon-secondary" height="24" viewBox="0 0 24 24" version="1.1" width="24" aria-hidden="true"><path fill-rule="evenodd" d="M13.152.682a2.25 2.25 0 012.269 0l.007.004 6.957 4.276a2.276 2.276 0 011.126 1.964v7.516c0 .81-.432 1.56-1.133 1.968l-.002.001-11.964 7.037-.004.003a2.276 2.276 0 01-2.284 0l-.026-.015-6.503-4.502a2.268 2.268 0 01-1.096-1.943V9.438c0-.392.1-.77.284-1.1l.003-.006.014-.026a2.28 2.28 0 01.82-.827h.002L13.152.681zm.757 1.295h-.001L2.648 8.616l6.248 4.247a.776.776 0 00.758-.01h.001l11.633-6.804-6.629-4.074a.75.75 0 00-.75.003zM18 9.709l-3.25 1.9v7.548L18 17.245V9.709zm1.5-.878v7.532l2.124-1.25a.777.777 0 00.387-.671V7.363L19.5 8.831zm-9.09 5.316l2.84-1.66v7.552l-3.233 1.902v-7.612c.134-.047.265-.107.391-.18l.002-.002zm-1.893 7.754V14.33a2.277 2.277 0 01-.393-.18l-.023-.014-6.102-4.147v7.003c0 .275.145.528.379.664l.025.014 6.114 4.232z"></path></svg>
+  </div>
+  <div class="gloss-c-pairing-2 mr-3">
+    <h3>
+      Cloud-ready code
+    </h3>
+    <p>
+
+        <a href='https://www.youtube.com/watch?v=UVb68E_WDKI' target='_blank'>Easily provision environments in the cloud</a> to help teams work faster at scale and meet demand.
+
+    </p>
+
+  </div>
+</div>
+
+<div class="d-flex flex-md-row mb-4">
+  <div class="d-flex flex-justify-center flex-items-center text-center circle color-bg-tertiary p-3 gloss-icon mr-4 mb-2">
+    <svg class="octicon octicon-shield-lock color-icon-secondary" height="24" viewBox="0 0 24 24" version="1.1" width="24" aria-hidden="true"><path fill-rule="evenodd" d="M12.077 2.563a.25.25 0 00-.154 0L3.673 5.24a.249.249 0 00-.173.237V10.5c0 5.461 3.28 9.483 8.43 11.426a.2.2 0 00.14 0c5.15-1.943 8.43-5.965 8.43-11.426V5.476a.25.25 0 00-.173-.237l-8.25-2.676zm-.617-1.426a1.75 1.75 0 011.08 0l8.25 2.675A1.75 1.75 0 0122 5.476V10.5c0 6.19-3.77 10.705-9.401 12.83a1.699 1.699 0 01-1.198 0C5.771 21.204 2 16.69 2 10.5V5.476c0-.76.49-1.43 1.21-1.664l8.25-2.675zM13 12.232A2 2 0 0012 8.5a2 2 0 00-1 3.732V15a1 1 0 102 0v-2.768z"></path></svg>
+  </div>
+  <div class="gloss-c-pairing-2 mr-3">
+    <h3>
+      Security
+    </h3>
+    <p>
+
+        <a href='https://github.com/learn/security'>Protect customers and code</a> while managing access across locations and environments.
+
+    </p>
+
+  </div>
+</div>
+
+<div class="d-flex flex-md-row mb-4">
+  <div class="d-flex flex-justify-center flex-items-center text-center circle color-bg-tertiary p-3 gloss-icon mr-4 mb-2">
+    <svg class="octicon octicon-people color-icon-secondary" height="24" viewBox="0 0 24 24" version="1.1" width="24" aria-hidden="true"><path fill-rule="evenodd" d="M3.5 8a5.5 5.5 0 118.596 4.547 9.005 9.005 0 015.9 8.18.75.75 0 01-1.5.045 7.5 7.5 0 00-14.993 0 .75.75 0 01-1.499-.044 9.005 9.005 0 015.9-8.181A5.494 5.494 0 013.5 8zM9 4a4 4 0 100 8 4 4 0 000-8z"></path><path d="M17.29 8c-.148 0-.292.01-.434.03a.75.75 0 11-.212-1.484 4.53 4.53 0 013.38 8.097 6.69 6.69 0 013.956 6.107.75.75 0 01-1.5 0 5.193 5.193 0 00-3.696-4.972l-.534-.16v-1.676l.41-.209A3.03 3.03 0 0017.29 8z"></path></svg>
+  </div>
+  <div class="gloss-c-pairing-2 mr-3">
+    <h3>
+      Collaboration
+    </h3>
+    <p>
+
+        Build and foster a <a href='https://www.youtube.com/watch?v=n-rNlaWg2ms' target='_blank'>collaborative culture</a> with b communication.
+
+    </p>
+
+  </div>
+</div>
+
+
+<div class="gloss-c-testimonial">
+  <blockquote>
+    We’ve gone from over 30 siloed software engineering groups to a largely cohesive team. By using standards and automation, the DevOps journey is now three steps and takes less than a day.
+  </blockquote>
+
+  <p class="gloss-c-testimonial__author"><span class="gloss-c-testimonial__name">Denis Canty</span> <span class="gloss-c-testimonial__separator">//</span> <span class="gloss-c-testimonial__affiliation">Vice President of Developer Services and Technology Labs</span></p>
+
+  <div class="gloss-c-testimonial__logo" style="max-width: 200px;">
+    <a href="https://github.com/customer-stories/mckesson">
+      <img src="/assets/img/logos/mckesson.svg" alt="McKesson" height="48">
+    </a>
+  </div>
+</div>
+
+
+<div class="gloss-c-section-heading mt-8 mt-md-10 mb-4" id="devops-ci-cd">
+  <div class="gloss-c-pairing-5">
+
+      <h2 class="col-8-max">
+        <span>
+          Breaking down the DevOps lifecycle
+        </span>
+      </h2>
+
+
+
+      <div class="gloss-c-product-sequence mb-6 text-center color-bg-canvas-inverse box-shadow-default-mktg rounded-2">
+        <img src="/assets/img/devops/lifecycle.png" alt="" class="width-fit mx-auto">
+      </div>
+
+
+
+      <div class="mb-6 gloss-c-pairing-5">
+        <p>DevOps encompasses every part of application development. Whether you call them “steps,” “stages,” or “phases,” it all adds up to the <strong>DevOps lifecycle</strong>, the process DevOps teams use to build and ship software. Like any good DevOps approach, teams stay in constant collaboration and share many of the same tools and responsibilities from beginning to end.</p>
+
+
+      </div>
+
+  </div>
+</div>
+
+
+<div class="d-flex flex-md-row mb-4">
+  <div class="d-flex flex-justify-center flex-items-center text-center circle color-bg-tertiary p-3 gloss-icon mr-4 mb-2">
+    <svg class="octicon octicon-pencil color-icon-secondary" height="24" viewBox="0 0 24 24" version="1.1" width="24" aria-hidden="true"><path fill-rule="evenodd" d="M17.263 2.177a1.75 1.75 0 012.474 0l2.586 2.586a1.75 1.75 0 010 2.474L19.53 10.03l-.012.013L8.69 20.378a1.75 1.75 0 01-.699.409l-5.523 1.68a.75.75 0 01-.935-.935l1.673-5.5a1.75 1.75 0 01.466-.756L14.476 4.963l2.787-2.786zm-2.275 4.371l-10.28 9.813a.25.25 0 00-.067.108l-1.264 4.154 4.177-1.271a.25.25 0 00.1-.059l10.273-9.806-2.94-2.939zM19 8.44l2.263-2.262a.25.25 0 000-.354l-2.586-2.586a.25.25 0 00-.354 0L16.061 5.5 19 8.44z"></path></svg>
+  </div>
+  <div class="gloss-c-pairing-2 mr-3">
+    <h3>
+      Idea
+    </h3>
+    <p>
+
+        Teams gather requirements and feedback, and start sketching out the resources they’ll need. DevOps teams focus on continuous planning—plans that can be updated frequently, even daily. To build out roadmaps and track progress towards their goals, teams leverage project management tools everyone can access and use.
+
+    </p>
+
+      <h4 class="f4 color-text-secondary mb-1">
+        <span class="mr-1"><svg height="16" class="octicon octicon-gear" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.429 1.525a6.593 6.593 0 011.142 0c.036.003.108.036.137.146l.289 1.105c.147.56.55.967.997 1.189.174.086.341.183.501.29.417.278.97.423 1.53.27l1.102-.303c.11-.03.175.016.195.046.219.31.41.641.573.989.014.031.022.11-.059.19l-.815.806c-.411.406-.562.957-.53 1.456a4.588 4.588 0 010 .582c-.032.499.119 1.05.53 1.456l.815.806c.08.08.073.159.059.19a6.494 6.494 0 01-.573.99c-.02.029-.086.074-.195.045l-1.103-.303c-.559-.153-1.112-.008-1.529.27-.16.107-.327.204-.5.29-.449.222-.851.628-.998 1.189l-.289 1.105c-.029.11-.101.143-.137.146a6.613 6.613 0 01-1.142 0c-.036-.003-.108-.037-.137-.146l-.289-1.105c-.147-.56-.55-.967-.997-1.189a4.502 4.502 0 01-.501-.29c-.417-.278-.97-.423-1.53-.27l-1.102.303c-.11.03-.175-.016-.195-.046a6.492 6.492 0 01-.573-.989c-.014-.031-.022-.11.059-.19l.815-.806c.411-.406.562-.957.53-1.456a4.587 4.587 0 010-.582c.032-.499-.119-1.05-.53-1.456l-.815-.806c-.08-.08-.073-.159-.059-.19a6.44 6.44 0 01.573-.99c.02-.029.086-.075.195-.045l1.103.303c.559.153 1.112.008 1.529-.27.16-.107.327-.204.5-.29.449-.222.851-.628.998-1.189l.289-1.105c.029-.11.101-.143.137-.146zM8 0c-.236 0-.47.01-.701.03-.743.065-1.29.615-1.458 1.261l-.29 1.106c-.017.066-.078.158-.211.224a5.994 5.994 0 00-.668.386c-.123.082-.233.09-.3.071L3.27 2.776c-.644-.177-1.392.02-1.82.63a7.977 7.977 0 00-.704 1.217c-.315.675-.111 1.422.363 1.891l.815.806c.05.048.098.147.088.294a6.084 6.084 0 000 .772c.01.147-.038.246-.088.294l-.815.806c-.474.469-.678 1.216-.363 1.891.2.428.436.835.704 1.218.428.609 1.176.806 1.82.63l1.103-.303c.066-.019.176-.011.299.071.213.143.436.272.668.386.133.066.194.158.212.224l.289 1.106c.169.646.715 1.196 1.458 1.26a8.094 8.094 0 001.402 0c.743-.064 1.29-.614 1.458-1.26l.29-1.106c.017-.066.078-.158.211-.224a5.98 5.98 0 00.668-.386c.123-.082.233-.09.3-.071l1.102.302c.644.177 1.392-.02 1.82-.63.268-.382.505-.789.704-1.217.315-.675.111-1.422-.364-1.891l-.814-.806c-.05-.048-.098-.147-.088-.294a6.1 6.1 0 000-.772c-.01-.147.039-.246.088-.294l.814-.806c.475-.469.679-1.216.364-1.891a7.992 7.992 0 00-.704-1.218c-.428-.609-1.176-.806-1.82-.63l-1.103.303c-.066.019-.176.011-.299-.071a5.991 5.991 0 00-.668-.386c-.133-.066-.194-.158-.212-.224L10.16 1.29C9.99.645 9.444.095 8.701.031A8.094 8.094 0 008 0zm1.5 8a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM11 8a3 3 0 11-6 0 3 3 0 016 0z"></path></svg></span>
+        Ideation stack
+      </h4>
+      <p>GitHub issues and project boards, Jira</p>
+
+
+        <a href="https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues" class="gloss-c-link mb-4">
+          <span class="gloss-c-link__text">
+            Learn more about planning and tracking<svg class="octicon octicon-chevrow" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path class="octicon-chevrow-right" fill="currentColor" d="M7.28033 3.21967C6.98744 2.92678 6.51256 2.92678 6.21967 3.21967C5.92678 3.51256 5.92678 3.98744 6.21967 4.28033L7.28033 3.21967ZM11 8L11.5303 8.53033C11.8232 8.23744 11.8232 7.76256 11.5303 7.46967L11 8ZM6.21967 11.7197C5.92678 12.0126 5.92678 12.4874 6.21967 12.7803C6.51256 13.0732 6.98744 13.0732 7.28033 12.7803L6.21967 11.7197ZM6.21967 4.28033L10.4697 8.53033L11.5303 7.46967L7.28033 3.21967L6.21967 4.28033ZM10.4697 7.46967L6.21967 11.7197L7.28033 12.7803L11.5303 8.53033L10.4697 7.46967Z"></path>
+              <path class="octicon-chevrow-stem" stroke="currentColor" d="M1.75 8H11" stroke-width="1.5" stroke-linecap="round"></path>
+            </svg>
+          </span>
+        </a>
+
+
+  </div>
+</div>
+
+
+<div class="d-flex flex-md-row mb-4">
+  <div class="d-flex flex-justify-center flex-items-center text-center circle color-bg-tertiary p-3 gloss-icon mr-4 mb-2">
+    <svg class="octicon octicon-code color-icon-secondary" height="24" viewBox="0 0 24 24" version="1.1" width="24" aria-hidden="true"><path fill-rule="evenodd" d="M8.78 4.97a.75.75 0 010 1.06L2.81 12l5.97 5.97a.75.75 0 11-1.06 1.06l-6.5-6.5a.75.75 0 010-1.06l6.5-6.5a.75.75 0 011.06 0zm6.44 0a.75.75 0 000 1.06L21.19 12l-5.97 5.97a.75.75 0 101.06 1.06l6.5-6.5a.75.75 0 000-1.06l-6.5-6.5a.75.75 0 00-1.06 0z"></path></svg>
+  </div>
+  <div class="gloss-c-pairing-2 mr-3">
+    <h3>
+      Build
+    </h3>
+    <p>
+
+        As project managers assign tasks, developers get to work. Here, DevOps comes to life: With version control and cloud-based development environments, developers can make ongoing changes and review code together in real time. DevOps continuous integration (CI) also kicks in, where automated tools turn code code changes into builds, run tests against required checks, then merge and prepare code for deployment.
+
+    </p>
+
+      <h4 class="f4 color-text-secondary mb-1">
+        <span class="mr-1"><svg height="16" class="octicon octicon-gear" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.429 1.525a6.593 6.593 0 011.142 0c.036.003.108.036.137.146l.289 1.105c.147.56.55.967.997 1.189.174.086.341.183.501.29.417.278.97.423 1.53.27l1.102-.303c.11-.03.175.016.195.046.219.31.41.641.573.989.014.031.022.11-.059.19l-.815.806c-.411.406-.562.957-.53 1.456a4.588 4.588 0 010 .582c-.032.499.119 1.05.53 1.456l.815.806c.08.08.073.159.059.19a6.494 6.494 0 01-.573.99c-.02.029-.086.074-.195.045l-1.103-.303c-.559-.153-1.112-.008-1.529.27-.16.107-.327.204-.5.29-.449.222-.851.628-.998 1.189l-.289 1.105c-.029.11-.101.143-.137.146a6.613 6.613 0 01-1.142 0c-.036-.003-.108-.037-.137-.146l-.289-1.105c-.147-.56-.55-.967-.997-1.189a4.502 4.502 0 01-.501-.29c-.417-.278-.97-.423-1.53-.27l-1.102.303c-.11.03-.175-.016-.195-.046a6.492 6.492 0 01-.573-.989c-.014-.031-.022-.11.059-.19l.815-.806c.411-.406.562-.957.53-1.456a4.587 4.587 0 010-.582c.032-.499-.119-1.05-.53-1.456l-.815-.806c-.08-.08-.073-.159-.059-.19a6.44 6.44 0 01.573-.99c.02-.029.086-.075.195-.045l1.103.303c.559.153 1.112.008 1.529-.27.16-.107.327-.204.5-.29.449-.222.851-.628.998-1.189l.289-1.105c.029-.11.101-.143.137-.146zM8 0c-.236 0-.47.01-.701.03-.743.065-1.29.615-1.458 1.261l-.29 1.106c-.017.066-.078.158-.211.224a5.994 5.994 0 00-.668.386c-.123.082-.233.09-.3.071L3.27 2.776c-.644-.177-1.392.02-1.82.63a7.977 7.977 0 00-.704 1.217c-.315.675-.111 1.422.363 1.891l.815.806c.05.048.098.147.088.294a6.084 6.084 0 000 .772c.01.147-.038.246-.088.294l-.815.806c-.474.469-.678 1.216-.363 1.891.2.428.436.835.704 1.218.428.609 1.176.806 1.82.63l1.103-.303c.066-.019.176-.011.299.071.213.143.436.272.668.386.133.066.194.158.212.224l.289 1.106c.169.646.715 1.196 1.458 1.26a8.094 8.094 0 001.402 0c.743-.064 1.29-.614 1.458-1.26l.29-1.106c.017-.066.078-.158.211-.224a5.98 5.98 0 00.668-.386c.123-.082.233-.09.3-.071l1.102.302c.644.177 1.392-.02 1.82-.63.268-.382.505-.789.704-1.217.315-.675.111-1.422-.364-1.891l-.814-.806c-.05-.048-.098-.147-.088-.294a6.1 6.1 0 000-.772c-.01-.147.039-.246.088-.294l.814-.806c.475-.469.679-1.216.364-1.891a7.992 7.992 0 00-.704-1.218c-.428-.609-1.176-.806-1.82-.63l-1.103.303c-.066.019-.176.011-.299-.071a5.991 5.991 0 00-.668-.386c-.133-.066-.194-.158-.212-.224L10.16 1.29C9.99.645 9.444.095 8.701.031A8.094 8.094 0 008 0zm1.5 8a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM11 8a3 3 0 11-6 0 3 3 0 016 0z"></path></svg></span>
+        Continuous integration stack
+      </h4>
+      <p>Git, GitHub Codespaces and Actions, GitLab CI pipelines, CircleCI, Jenkins</p>
+
+
+        <a href="https://docs.github.com/en/actions/guides/about-continuous-integration" class="gloss-c-link mb-4">
+          <span class="gloss-c-link__text">
+            Learn more about continuous integration<svg class="octicon octicon-chevrow" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path class="octicon-chevrow-right" fill="currentColor" d="M7.28033 3.21967C6.98744 2.92678 6.51256 2.92678 6.21967 3.21967C5.92678 3.51256 5.92678 3.98744 6.21967 4.28033L7.28033 3.21967ZM11 8L11.5303 8.53033C11.8232 8.23744 11.8232 7.76256 11.5303 7.46967L11 8ZM6.21967 11.7197C5.92678 12.0126 5.92678 12.4874 6.21967 12.7803C6.51256 13.0732 6.98744 13.0732 7.28033 12.7803L6.21967 11.7197ZM6.21967 4.28033L10.4697 8.53033L11.5303 7.46967L7.28033 3.21967L6.21967 4.28033ZM10.4697 7.46967L6.21967 11.7197L7.28033 12.7803L11.5303 8.53033L10.4697 7.46967Z"></path>
+              <path class="octicon-chevrow-stem" stroke="currentColor" d="M1.75 8H11" stroke-width="1.5" stroke-linecap="round"></path>
+            </svg>
+          </span>
+        </a>
+
+
+  </div>
+</div>
+
+
+<div class="d-flex flex-md-row mb-4">
+  <div class="d-flex flex-justify-center flex-items-center text-center circle color-bg-tertiary p-3 gloss-icon mr-4 mb-2">
+    <svg class="octicon octicon-rocket color-icon-secondary" height="24" viewBox="0 0 24 24" version="1.1" width="24" aria-hidden="true"><path fill-rule="evenodd" d="M20.322.75a10.75 10.75 0 00-7.373 2.926l-1.304 1.23A23.743 23.743 0 0010.103 6.5H5.066a1.75 1.75 0 00-1.5.85l-2.71 4.514a.75.75 0 00.49 1.12l4.571.963c.039.049.082.096.129.14L8.04 15.96l1.872 1.994c.044.047.091.09.14.129l.963 4.572a.75.75 0 001.12.488l4.514-2.709a1.75 1.75 0 00.85-1.5v-5.038a23.741 23.741 0 001.596-1.542l1.228-1.304a10.75 10.75 0 002.925-7.374V2.499A1.75 1.75 0 0021.498.75h-1.177zM16 15.112c-.333.248-.672.487-1.018.718l-3.393 2.262.678 3.223 3.612-2.167a.25.25 0 00.121-.214v-3.822zm-10.092-2.7L8.17 9.017c.23-.346.47-.685.717-1.017H5.066a.25.25 0 00-.214.121l-2.167 3.612 3.223.679zm8.07-7.644a9.25 9.25 0 016.344-2.518h1.177a.25.25 0 01.25.25v1.176a9.25 9.25 0 01-2.517 6.346l-1.228 1.303a22.248 22.248 0 01-3.854 3.257l-3.288 2.192-1.743-1.858a.764.764 0 00-.034-.034l-1.859-1.744 2.193-3.29a22.248 22.248 0 013.255-3.851l1.304-1.23zM17.5 8a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zm-11 13c.9-.9.9-2.6 0-3.5-.9-.9-2.6-.9-3.5 0-1.209 1.209-1.445 3.901-1.49 4.743a.232.232 0 00.247.247c.842-.045 3.534-.281 4.743-1.49z"></path></svg>
+  </div>
+  <div class="gloss-c-pairing-2 mr-3">
+    <h3>
+      Ship
+    </h3>
+    <p>
+
+        After passing initial checks, developers use continuous delivery (CD) tools to automatically push code changes to a non-production testing or staging environment. Operations teams can immediately deploy the changes to production, without any surprises.
+
+    </p>
+
+      <h4 class="f4 color-text-secondary mb-1">
+        <span class="mr-1"><svg height="16" class="octicon octicon-gear" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.429 1.525a6.593 6.593 0 011.142 0c.036.003.108.036.137.146l.289 1.105c.147.56.55.967.997 1.189.174.086.341.183.501.29.417.278.97.423 1.53.27l1.102-.303c.11-.03.175.016.195.046.219.31.41.641.573.989.014.031.022.11-.059.19l-.815.806c-.411.406-.562.957-.53 1.456a4.588 4.588 0 010 .582c-.032.499.119 1.05.53 1.456l.815.806c.08.08.073.159.059.19a6.494 6.494 0 01-.573.99c-.02.029-.086.074-.195.045l-1.103-.303c-.559-.153-1.112-.008-1.529.27-.16.107-.327.204-.5.29-.449.222-.851.628-.998 1.189l-.289 1.105c-.029.11-.101.143-.137.146a6.613 6.613 0 01-1.142 0c-.036-.003-.108-.037-.137-.146l-.289-1.105c-.147-.56-.55-.967-.997-1.189a4.502 4.502 0 01-.501-.29c-.417-.278-.97-.423-1.53-.27l-1.102.303c-.11.03-.175-.016-.195-.046a6.492 6.492 0 01-.573-.989c-.014-.031-.022-.11.059-.19l.815-.806c.411-.406.562-.957.53-1.456a4.587 4.587 0 010-.582c.032-.499-.119-1.05-.53-1.456l-.815-.806c-.08-.08-.073-.159-.059-.19a6.44 6.44 0 01.573-.99c.02-.029.086-.075.195-.045l1.103.303c.559.153 1.112.008 1.529-.27.16-.107.327-.204.5-.29.449-.222.851-.628.998-1.189l.289-1.105c.029-.11.101-.143.137-.146zM8 0c-.236 0-.47.01-.701.03-.743.065-1.29.615-1.458 1.261l-.29 1.106c-.017.066-.078.158-.211.224a5.994 5.994 0 00-.668.386c-.123.082-.233.09-.3.071L3.27 2.776c-.644-.177-1.392.02-1.82.63a7.977 7.977 0 00-.704 1.217c-.315.675-.111 1.422.363 1.891l.815.806c.05.048.098.147.088.294a6.084 6.084 0 000 .772c.01.147-.038.246-.088.294l-.815.806c-.474.469-.678 1.216-.363 1.891.2.428.436.835.704 1.218.428.609 1.176.806 1.82.63l1.103-.303c.066-.019.176-.011.299.071.213.143.436.272.668.386.133.066.194.158.212.224l.289 1.106c.169.646.715 1.196 1.458 1.26a8.094 8.094 0 001.402 0c.743-.064 1.29-.614 1.458-1.26l.29-1.106c.017-.066.078-.158.211-.224a5.98 5.98 0 00.668-.386c.123-.082.233-.09.3-.071l1.102.302c.644.177 1.392-.02 1.82-.63.268-.382.505-.789.704-1.217.315-.675.111-1.422-.364-1.891l-.814-.806c-.05-.048-.098-.147-.088-.294a6.1 6.1 0 000-.772c-.01-.147.039-.246.088-.294l.814-.806c.475-.469.679-1.216.364-1.891a7.992 7.992 0 00-.704-1.218c-.428-.609-1.176-.806-1.82-.63l-1.103.303c-.066.019-.176.011-.299-.071a5.991 5.991 0 00-.668-.386c-.133-.066-.194-.158-.212-.224L10.16 1.29C9.99.645 9.444.095 8.701.031A8.094 8.094 0 008 0zm1.5 8a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM11 8a3 3 0 11-6 0 3 3 0 016 0z"></path></svg></span>
+        Continuous deployment stack
+      </h4>
+      <p>CD pipelines with GitHub Actions, GitHub Packages, Microsoft Azure</p>
+
+
+        <a href="https://www.youtube.com/watch?v=pfnGHNYQcg0" class="gloss-c-link mb-4" target="_blank">
+          <span class="gloss-c-link__text">
+            Learn more about deployment<svg class="octicon octicon-chevrow" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path class="octicon-chevrow-right" fill="currentColor" d="M7.28033 3.21967C6.98744 2.92678 6.51256 2.92678 6.21967 3.21967C5.92678 3.51256 5.92678 3.98744 6.21967 4.28033L7.28033 3.21967ZM11 8L11.5303 8.53033C11.8232 8.23744 11.8232 7.76256 11.5303 7.46967L11 8ZM6.21967 11.7197C5.92678 12.0126 5.92678 12.4874 6.21967 12.7803C6.51256 13.0732 6.98744 13.0732 7.28033 12.7803L6.21967 11.7197ZM6.21967 4.28033L10.4697 8.53033L11.5303 7.46967L7.28033 3.21967L6.21967 4.28033ZM10.4697 7.46967L6.21967 11.7197L7.28033 12.7803L11.5303 8.53033L10.4697 7.46967Z"></path>
+              <path class="octicon-chevrow-stem" stroke="currentColor" d="M1.75 8H11" stroke-width="1.5" stroke-linecap="round"></path>
+            </svg>
+          </span>
+        </a>
+
+
+  </div>
+</div>
+
+
+<div class="d-flex flex-md-row mb-4">
+  <div class="d-flex flex-justify-center flex-items-center text-center circle color-bg-tertiary p-3 gloss-icon mr-4 mb-2">
+    <svg class="octicon octicon-sync color-icon-secondary" height="24" viewBox="0 0 24 24" version="1.1" width="24" aria-hidden="true"><path d="M3.38 8A9.502 9.502 0 0112 2.5a9.502 9.502 0 019.215 7.182.75.75 0 101.456-.364C21.473 4.539 17.15 1 12 1a10.995 10.995 0 00-9.5 5.452V4.75a.75.75 0 00-1.5 0V8.5a1 1 0 001 1h3.75a.75.75 0 000-1.5H3.38zm-.595 6.318a.75.75 0 00-1.455.364C2.527 19.461 6.85 23 12 23c4.052 0 7.592-2.191 9.5-5.451v1.701a.75.75 0 001.5 0V15.5a1 1 0 00-1-1h-3.75a.75.75 0 000 1.5h2.37A9.502 9.502 0 0112 21.5c-4.446 0-8.181-3.055-9.215-7.182z"></path></svg>
+  </div>
+  <div class="gloss-c-pairing-2 mr-3">
+    <h3>
+      Learn
+    </h3>
+    <p>
+
+        Software may be out in the world, but the work isn’t over. Operations teams keep an eye on releases with monitoring tools that measure performance and monitor the impact of code changes. They ensure stability and uptime, gather customer feedback and stay in close contact with developers to push required fixes and address incidents faster.
+
+    </p>
+
+      <h4 class="f4 color-text-secondary mb-1">
+        <span class="mr-1"><svg height="16" class="octicon octicon-gear" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.429 1.525a6.593 6.593 0 011.142 0c.036.003.108.036.137.146l.289 1.105c.147.56.55.967.997 1.189.174.086.341.183.501.29.417.278.97.423 1.53.27l1.102-.303c.11-.03.175.016.195.046.219.31.41.641.573.989.014.031.022.11-.059.19l-.815.806c-.411.406-.562.957-.53 1.456a4.588 4.588 0 010 .582c-.032.499.119 1.05.53 1.456l.815.806c.08.08.073.159.059.19a6.494 6.494 0 01-.573.99c-.02.029-.086.074-.195.045l-1.103-.303c-.559-.153-1.112-.008-1.529.27-.16.107-.327.204-.5.29-.449.222-.851.628-.998 1.189l-.289 1.105c-.029.11-.101.143-.137.146a6.613 6.613 0 01-1.142 0c-.036-.003-.108-.037-.137-.146l-.289-1.105c-.147-.56-.55-.967-.997-1.189a4.502 4.502 0 01-.501-.29c-.417-.278-.97-.423-1.53-.27l-1.102.303c-.11.03-.175-.016-.195-.046a6.492 6.492 0 01-.573-.989c-.014-.031-.022-.11.059-.19l.815-.806c.411-.406.562-.957.53-1.456a4.587 4.587 0 010-.582c.032-.499-.119-1.05-.53-1.456l-.815-.806c-.08-.08-.073-.159-.059-.19a6.44 6.44 0 01.573-.99c.02-.029.086-.075.195-.045l1.103.303c.559.153 1.112.008 1.529-.27.16-.107.327-.204.5-.29.449-.222.851-.628.998-1.189l.289-1.105c.029-.11.101-.143.137-.146zM8 0c-.236 0-.47.01-.701.03-.743.065-1.29.615-1.458 1.261l-.29 1.106c-.017.066-.078.158-.211.224a5.994 5.994 0 00-.668.386c-.123.082-.233.09-.3.071L3.27 2.776c-.644-.177-1.392.02-1.82.63a7.977 7.977 0 00-.704 1.217c-.315.675-.111 1.422.363 1.891l.815.806c.05.048.098.147.088.294a6.084 6.084 0 000 .772c.01.147-.038.246-.088.294l-.815.806c-.474.469-.678 1.216-.363 1.891.2.428.436.835.704 1.218.428.609 1.176.806 1.82.63l1.103-.303c.066-.019.176-.011.299.071.213.143.436.272.668.386.133.066.194.158.212.224l.289 1.106c.169.646.715 1.196 1.458 1.26a8.094 8.094 0 001.402 0c.743-.064 1.29-.614 1.458-1.26l.29-1.106c.017-.066.078-.158.211-.224a5.98 5.98 0 00.668-.386c.123-.082.233-.09.3-.071l1.102.302c.644.177 1.392-.02 1.82-.63.268-.382.505-.789.704-1.217.315-.675.111-1.422-.364-1.891l-.814-.806c-.05-.048-.098-.147-.088-.294a6.1 6.1 0 000-.772c-.01-.147.039-.246.088-.294l.814-.806c.475-.469.679-1.216.364-1.891a7.992 7.992 0 00-.704-1.218c-.428-.609-1.176-.806-1.82-.63l-1.103.303c-.066.019-.176.011-.299-.071a5.991 5.991 0 00-.668-.386c-.133-.066-.194-.158-.212-.224L10.16 1.29C9.99.645 9.444.095 8.701.031A8.094 8.094 0 008 0zm1.5 8a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM11 8a3 3 0 11-6 0 3 3 0 016 0z"></path></svg></span>
+        Observability stack
+      </h4>
+      <p>Netdata, Lightstep, New Relic, App Dynamics, Sentry, Raygun, Honeycomb, Splunk</p>
+
+
+
+  </div>
+</div>
+
+
+<div class="">
+
+    <a class="gloss-c-content-block" href="https://github.blog/2020-10-29-getting-started-with-devops-automation/">
+
+    <div class="gloss-c-pairing-2">
+      <h3>Automation at every step</h3>
+
+      <div class="mb-6 gloss-c-pairing-5">
+        <p>Noticing a theme? As much as DevOps is about tools and collaboration, it’s also about automation. DevOps automation allows teams to ship to production faster by removing manual tasks and replacing them with automated processes like continuous integration and continuous delivery (CI/CD).</p>
+
+        <span class="gloss-c-link">
+          <span class="gloss-c-link__text">
+            Learn more about automation<svg class="octicon octicon-chevrow" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path class="octicon-chevrow-right" fill="currentColor" d="M7.28033 3.21967C6.98744 2.92678 6.51256 2.92678 6.21967 3.21967C5.92678 3.51256 5.92678 3.98744 6.21967 4.28033L7.28033 3.21967ZM11 8L11.5303 8.53033C11.8232 8.23744 11.8232 7.76256 11.5303 7.46967L11 8ZM6.21967 11.7197C5.92678 12.0126 5.92678 12.4874 6.21967 12.7803C6.51256 13.0732 6.98744 13.0732 7.28033 12.7803L6.21967 11.7197ZM6.21967 4.28033L10.4697 8.53033L11.5303 7.46967L7.28033 3.21967L6.21967 4.28033ZM10.4697 7.46967L6.21967 11.7197L7.28033 12.7803L11.5303 8.53033L10.4697 7.46967Z"></path>
+              <path class="octicon-chevrow-stem" stroke="currentColor" d="M1.75 8H11" stroke-width="1.5" stroke-linecap="round"></path>
+            </svg>
+          </span>
+        </span>
+      </div>
+    </div>
+
+    </a>
+
+</div>
+
+
+<div class="">
+
+    <a class="gloss-c-content-block" href="https://resources.github.com/ci-cd">
+
+    <div class="gloss-c-pairing-2">
+      <h3>What is CI/CD?</h3>
+
+      <div class="mb-6 gloss-c-pairing-5">
+        <p>Continuous integration and continuous delivery (CI/CD) combines every step of the software release process into one integrated workflow. Developers <i>continuously</i> build, test, and deploy code to production using a series of automated tools that power the team’s overall DevOps pipeline.</p>
+
+        <span class="gloss-c-link">
+          <span class="gloss-c-link__text">
+            Learn more about CI/CD<svg class="octicon octicon-chevrow" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path class="octicon-chevrow-right" fill="currentColor" d="M7.28033 3.21967C6.98744 2.92678 6.51256 2.92678 6.21967 3.21967C5.92678 3.51256 5.92678 3.98744 6.21967 4.28033L7.28033 3.21967ZM11 8L11.5303 8.53033C11.8232 8.23744 11.8232 7.76256 11.5303 7.46967L11 8ZM6.21967 11.7197C5.92678 12.0126 5.92678 12.4874 6.21967 12.7803C6.51256 13.0732 6.98744 13.0732 7.28033 12.7803L6.21967 11.7197ZM6.21967 4.28033L10.4697 8.53033L11.5303 7.46967L7.28033 3.21967L6.21967 4.28033ZM10.4697 7.46967L6.21967 11.7197L7.28033 12.7803L11.5303 8.53033L10.4697 7.46967Z"></path>
+              <path class="octicon-chevrow-stem" stroke="currentColor" d="M1.75 8H11" stroke-width="1.5" stroke-linecap="round"></path>
+            </svg>
+          </span>
+        </span>
+      </div>
+    </div>
+
+    </a>
+
+</div>
+
+
+<div class="gloss-c-testimonial">
+  <blockquote>
+    The mindset we carry is that we always want to automate ourselves into a better job. We want to make sure that the task we’re doing manually today becomes mostly automated.
+  </blockquote>
+
+  <p class="gloss-c-testimonial__author"><span class="gloss-c-testimonial__name">Jon Parise</span> <span class="gloss-c-testimonial__separator">//</span> <span class="gloss-c-testimonial__affiliation">Engineering Architect</span></p>
+
+  <div class="gloss-c-testimonial__logo" style="max-width: 200px;">
+    <a href="https://github.com/customer-stories/pinterest">
+      <img src="/assets/img/logos/pinterest.svg" alt="Pinterest" height="32">
+    </a>
+  </div>
+</div>
+
+
+<div class="gloss-c-section-heading mt-8 mt-md-10 mb-4">
+  <div class="gloss-c-pairing-5">
+
+      <h2 class="col-8-max">
+        <span>
+          Building a DevOps culture
+        </span>
+      </h2>
+
+
+
+
+
+      <div class="mb-6 gloss-c-pairing-5">
+        <p>Successful DevOps depends on cultural change—adopting a collaboration-first approach to software originally developed by open source teams. In open source, developers encourage transparency, shared workloads, continuous feedback and reviews, and robust documentation. Industry reports like <a href='https://www.devops-research.com/research.html' target='_blank'>DORA</a>’s State of DevOps from researchers Nicole Forsgren, Jez Humble and Gene Kim, and popular DevOps frameworks like <a href='https://devops.com/using-calms-to-assess-organizations-devops/' target='_blank'>CALMS</a> often use these best practices as benchmarks for DevOps success.</p>
+
+
+      </div>
+
+  </div>
+</div>
+
+
+<div class="d-flex flex-md-row mb-4">
+  <div class="d-flex flex-justify-center flex-items-center text-center circle color-bg-tertiary p-3 gloss-icon mr-4 mb-2">
+    <svg class="octicon octicon-comment-discussion color-icon-secondary" height="24" viewBox="0 0 24 24" version="1.1" width="24" aria-hidden="true"><path fill-rule="evenodd" d="M1.75 1A1.75 1.75 0 000 2.75v9.5C0 13.216.784 14 1.75 14H3v1.543a1.457 1.457 0 002.487 1.03L8.061 14h6.189A1.75 1.75 0 0016 12.25v-9.5A1.75 1.75 0 0014.25 1H1.75zM1.5 2.75a.25.25 0 01.25-.25h12.5a.25.25 0 01.25.25v9.5a.25.25 0 01-.25.25h-6.5a.75.75 0 00-.53.22L4.5 15.44v-2.19a.75.75 0 00-.75-.75h-2a.25.25 0 01-.25-.25v-9.5z"></path><path d="M22.5 8.75a.25.25 0 00-.25-.25h-3.5a.75.75 0 010-1.5h3.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0122.25 20H21v1.543a1.457 1.457 0 01-2.487 1.03L15.939 20H10.75A1.75 1.75 0 019 18.25v-1.465a.75.75 0 011.5 0v1.465c0 .138.112.25.25.25h5.5a.75.75 0 01.53.22l2.72 2.72v-2.19a.75.75 0 01.75-.75h2a.25.25 0 00.25-.25v-9.5z"></path></svg>
+  </div>
+  <div class="gloss-c-pairing-2 mr-3">
+    <h3>
+      Collaboration
+    </h3>
+    <p>
+
+        <a href='https://www.youtube.com/watch?v=HyvZO5vvOas' target='_blank'>Collaboration</a> is at the heart of DevOps. Developers and operations teams regularly communicate about timelines and goals, and everyone is responsible for the project’s success.
+
+    </p>
+
+  </div>
+</div>
+
+<div class="d-flex flex-md-row mb-4">
+  <div class="d-flex flex-justify-center flex-items-center text-center circle color-bg-tertiary p-3 gloss-icon mr-4 mb-2">
+    <svg class="octicon octicon-hubot color-icon-secondary" height="24" viewBox="0 0 24 24" version="1.1" width="24" aria-hidden="true"><path d="M0 13C0 6.373 5.373 1 12 1s12 5.373 12 12v8.657a.75.75 0 01-1.5 0V13c0-5.799-4.701-10.5-10.5-10.5S1.5 7.201 1.5 13v8.657a.75.75 0 01-1.5 0V13z"></path><path d="M8 19.75a.75.75 0 01.75-.75h6.5a.75.75 0 010 1.5h-6.5a.75.75 0 01-.75-.75z"></path><path fill-rule="evenodd" d="M5.25 9.5a1.75 1.75 0 00-1.75 1.75v3.5c0 .966.784 1.75 1.75 1.75h13.5a1.75 1.75 0 001.75-1.75v-3.5a1.75 1.75 0 00-1.75-1.75H5.25zm.22 1.47a.75.75 0 011.06 0L9 13.44l2.47-2.47a.75.75 0 011.06 0L15 13.44l2.47-2.47a.75.75 0 111.06 1.06l-3 3a.75.75 0 01-1.06 0L12 12.56l-2.47 2.47a.75.75 0 01-1.06 0l-3-3a.75.75 0 010-1.06z"></path></svg>
+  </div>
+  <div class="gloss-c-pairing-2 mr-3">
+    <h3>
+      Automation
+    </h3>
+    <p>
+
+        As teams work together and share tools, automation supports consistency, reliability, and efficiency across the organization so it’s easier to discover and troubleshoot problems.
+
+    </p>
+
+  </div>
+</div>
+
+<div class="d-flex flex-md-row mb-4">
+  <div class="d-flex flex-justify-center flex-items-center text-center circle color-bg-tertiary p-3 gloss-icon mr-4 mb-2">
+    <svg class="octicon octicon-ruby color-icon-secondary" height="24" viewBox="0 0 24 24" version="1.1" width="24" aria-hidden="true"><path fill-rule="evenodd" d="M5.873 3.26A.75.75 0 016.44 3h11.31a.75.75 0 01.576.27l5 6a.75.75 0 01-.028.992l-10.75 11.5a.75.75 0 01-1.096 0l-10.75-11.5a.75.75 0 01-.02-1.003l5.19-6zm.91 1.24L2.258 9.73 12 20.153l9.75-10.43L17.399 4.5H6.783z"></path></svg>
+  </div>
+  <div class="gloss-c-pairing-2 mr-3">
+    <h3>
+      Transparency
+    </h3>
+    <p>
+
+        Ongoing feedback and open access to repositories encourages collaboration within and outside individual teams. It also promotes <a href='https://www.youtube.com/watch?v=RDqEP1fhDNM&list=PL0lo9MOBetEGx6P7vI85aDfD4I2WNMdUG&index=3' target='_blank'>InnerSource</a>, the process of using open source best practices to build internal code.
+
+    </p>
+
+  </div>
+</div>
+
+
+<div class="gloss-c-section-heading mt-8 mt-md-10 mb-4" id="devsecops">
+  <div class="gloss-c-pairing-5">
+
+      <h2 class="col-8-max">
+        <span>
+          But don’t forget DevSecOps
+        </span>
+      </h2>
+
+
+
+      <div class="gloss-c-product-sequence mb-6 text-center color-bg-canvas-inverse box-shadow-default-mktg rounded-2">
+        <img src="/assets/img/devops/devsecops.png" alt="" class="width-fit mx-auto">
+      </div>
+
+
+
+  </div>
+</div>
+
+
+<div class="d-flex flex-items-center mb-4 gloss-c-pairing-3">
+  <div class="d-flex flex-justify-center flex-items-center text-center circle color-bg-tertiary p-3" style="width: 72px; height: 72px">
+    <svg class="octicon octicon-info color-icon-secondary" height="24" viewBox="0 0 24 24" version="1.1" width="24" aria-hidden="true"><path d="M13 7.5a1 1 0 11-2 0 1 1 0 012 0zm-3 3.75a.75.75 0 01.75-.75h1.5a.75.75 0 01.75.75v4.25h.75a.75.75 0 010 1.5h-3a.75.75 0 010-1.5h.75V12h-.75a.75.75 0 01-.75-.75z"></path><path fill-rule="evenodd" d="M12 1C5.925 1 1 5.925 1 12s4.925 11 11 11 11-4.925 11-11S18.075 1 12 1zM2.5 12a9.5 9.5 0 1119 0 9.5 9.5 0 01-19 0z"></path></svg>
+  </div>
+  <div class="mb-0 flex-1 ml-3 tldr">
+    <h2 class="d-inline gloss-c-pairing__emphasis f3" style="font-weight: inherit">What is DevSecOps?</h2> <p class="d-inline gloss-c-pairing__emphasis">Like development and operations, DevSecOps integrates automated security testing into every part of DevOps culture, tooling, and processes.</p>
+  </div>
+</div>
+
+
+<div class="gloss-c-section-heading mt-6 mb-4">
+  <div class="gloss-c-pairing-5">
+    <div class="mb-6 gloss-c-pairing-5">
+      <p>For many practitioners, security was always meant to be part of DevOps. Instead of happening at the end of the SDLC, DevOps security starts at the source: Code. This approach is commonly known as <a href='https://github.blog/2020-04-28-how-to-build-an-effective-devsecops-culture/'>DevSecOps</a> or “shifting left.” Using automated security tools, developers find and address security vulnerabilities as they code instead of waiting for security teams to address them after deployment. By empowering developers to take responsibility for security throughout the DevOps lifecycle, DevSecOps allows development, operations, and security teams to find and remediate security issues faster.</p>
+
+
+    </div>
+  </div>
+</div>
+
+
+<div class="gloss-c-testimonial">
+  <blockquote>
+    You fix it and you move forward, because guess what? It takes you a minute to solve that security issue in development when it could potentially take you hours or days to fix in production.
+  </blockquote>
+
+  <p class="gloss-c-testimonial__author"><span class="gloss-c-testimonial__name">Shamal Siwan</span> <span class="gloss-c-testimonial__separator">//</span> <span class="gloss-c-testimonial__affiliation">Lead DevOps Engineer/Solutions Architect</span></p>
+
+  <div class="gloss-c-testimonial__logo" style="max-width: 200px;">
+    <a href="https://github.com/customer-stories/cdt">
+      <img src="/assets/img/logos/california-department-of-technology.svg" alt="California Department of Technology" height="48">
+    </a>
+  </div>
+</div>
+
+
+<div class="gloss-c-section-heading mt-8 mt-md-10 mb-4" id="examples">
+  <div class="gloss-c-pairing-5">
+
+      <h2 class="col-8-max">
+        <span>
+          What can you do with DevOps?
+        </span>
+      </h2>
+
+
+
+
+
+      <div class="mb-6 gloss-c-pairing-5">
+        <p>See how high-performing teams put collaboration and automation to work.</p>
+
+
+      </div>
+
+  </div>
+</div>
+
+
+<div class="d-flex flex-wrap gutter-condensed gutter-md gutter-lg-spacious">
+<div class="col-sm-6 mb-3">
+  <a class="gloss-c-content-block gloss-c-content-block--underlined" href="https://github.com/customer-stories/mckesson">
+    <div class="d-flex flex-items-center flex-justify-start mb-1 col-6" style="height: 64px">
+      <img src="/assets/img/logos/mckesson.svg" alt="McKesson" class="width-fit pb-3" style="max-height: 64px">
+    </div>
+
+    <div class="gloss-c-pairing-2">
+      <p>Building a cohesive DevOps technology stack.</p>
+
+      <span class="gloss-c-link">
+        <span class="gloss-c-link__text">
+          Explore McKesson<svg class="octicon octicon-chevrow" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path class="octicon-chevrow-right" fill="currentColor" d="M7.28033 3.21967C6.98744 2.92678 6.51256 2.92678 6.21967 3.21967C5.92678 3.51256 5.92678 3.98744 6.21967 4.28033L7.28033 3.21967ZM11 8L11.5303 8.53033C11.8232 8.23744 11.8232 7.76256 11.5303 7.46967L11 8ZM6.21967 11.7197C5.92678 12.0126 5.92678 12.4874 6.21967 12.7803C6.51256 13.0732 6.98744 13.0732 7.28033 12.7803L6.21967 11.7197ZM6.21967 4.28033L10.4697 8.53033L11.5303 7.46967L7.28033 3.21967L6.21967 4.28033ZM10.4697 7.46967L6.21967 11.7197L7.28033 12.7803L11.5303 8.53033L10.4697 7.46967Z"></path>
+            <path class="octicon-chevrow-stem" stroke="currentColor" d="M1.75 8H11" stroke-width="1.5" stroke-linecap="round"></path>
+          </svg>
+        </span>
+      </span>
+    </div>
+  </a>
+</div>
+
+<div class="col-sm-6 mb-3">
+  <a class="gloss-c-content-block gloss-c-content-block--underlined" href="https://github.com/customer-stories/dell">
+    <div class="d-flex flex-items-center flex-justify-start mb-1 col-6" style="height: 64px">
+      <img src="/assets/img/logos/dell-technologies.svg" alt="Dell Technologies" class="width-fit pb-3" style="max-height: 64px">
+    </div>
+
+    <div class="gloss-c-pairing-2">
+      <p>Standardizing to support innersource and scalability.</p>
+
+      <span class="gloss-c-link">
+        <span class="gloss-c-link__text">
+          Explore Dell Technologies<svg class="octicon octicon-chevrow" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path class="octicon-chevrow-right" fill="currentColor" d="M7.28033 3.21967C6.98744 2.92678 6.51256 2.92678 6.21967 3.21967C5.92678 3.51256 5.92678 3.98744 6.21967 4.28033L7.28033 3.21967ZM11 8L11.5303 8.53033C11.8232 8.23744 11.8232 7.76256 11.5303 7.46967L11 8ZM6.21967 11.7197C5.92678 12.0126 5.92678 12.4874 6.21967 12.7803C6.51256 13.0732 6.98744 13.0732 7.28033 12.7803L6.21967 11.7197ZM6.21967 4.28033L10.4697 8.53033L11.5303 7.46967L7.28033 3.21967L6.21967 4.28033ZM10.4697 7.46967L6.21967 11.7197L7.28033 12.7803L11.5303 8.53033L10.4697 7.46967Z"></path>
+            <path class="octicon-chevrow-stem" stroke="currentColor" d="M1.75 8H11" stroke-width="1.5" stroke-linecap="round"></path>
+          </svg>
+        </span>
+      </span>
+    </div>
+  </a>
+</div>
+
+<div class="col-sm-6 mb-3">
+  <a class="gloss-c-content-block gloss-c-content-block--underlined" href="https://github.com/customer-stories/homedepot">
+    <div class="d-flex flex-items-center flex-justify-start mb-1 col-6" style="height: 64px">
+      <img src="/assets/img/logos/the-home-depot.svg" alt="The Home Depot" class="width-fit pb-3" style="max-height: 64px">
+    </div>
+
+    <div class="gloss-c-pairing-2">
+      <p>Modernizing infrastructure and developer tooling.</p>
+
+      <span class="gloss-c-link">
+        <span class="gloss-c-link__text">
+          Explore The Home Depot<svg class="octicon octicon-chevrow" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path class="octicon-chevrow-right" fill="currentColor" d="M7.28033 3.21967C6.98744 2.92678 6.51256 2.92678 6.21967 3.21967C5.92678 3.51256 5.92678 3.98744 6.21967 4.28033L7.28033 3.21967ZM11 8L11.5303 8.53033C11.8232 8.23744 11.8232 7.76256 11.5303 7.46967L11 8ZM6.21967 11.7197C5.92678 12.0126 5.92678 12.4874 6.21967 12.7803C6.51256 13.0732 6.98744 13.0732 7.28033 12.7803L6.21967 11.7197ZM6.21967 4.28033L10.4697 8.53033L11.5303 7.46967L7.28033 3.21967L6.21967 4.28033ZM10.4697 7.46967L6.21967 11.7197L7.28033 12.7803L11.5303 8.53033L10.4697 7.46967Z"></path>
+            <path class="octicon-chevrow-stem" stroke="currentColor" d="M1.75 8H11" stroke-width="1.5" stroke-linecap="round"></path>
+          </svg>
+        </span>
+      </span>
+    </div>
+  </a>
+</div>
+
+<div class="col-sm-6 mb-3">
+  <a class="gloss-c-content-block gloss-c-content-block--underlined" href="https://github.com/customer-stories/dow-jones">
+    <div class="d-flex flex-items-center flex-justify-start mb-1 col-6" style="height: 64px">
+      <img src="/assets/img/logos/dow-jones.svg" alt="Dow Jones" class="width-fit pb-3" style="max-height: 64px">
+    </div>
+
+    <div class="gloss-c-pairing-2">
+      <p>Bringing automated security to CI/CD pipelines.</p>
+
+      <span class="gloss-c-link">
+        <span class="gloss-c-link__text">
+          Explore Dow Jones<svg class="octicon octicon-chevrow" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path class="octicon-chevrow-right" fill="currentColor" d="M7.28033 3.21967C6.98744 2.92678 6.51256 2.92678 6.21967 3.21967C5.92678 3.51256 5.92678 3.98744 6.21967 4.28033L7.28033 3.21967ZM11 8L11.5303 8.53033C11.8232 8.23744 11.8232 7.76256 11.5303 7.46967L11 8ZM6.21967 11.7197C5.92678 12.0126 5.92678 12.4874 6.21967 12.7803C6.51256 13.0732 6.98744 13.0732 7.28033 12.7803L6.21967 11.7197ZM6.21967 4.28033L10.4697 8.53033L11.5303 7.46967L7.28033 3.21967L6.21967 4.28033ZM10.4697 7.46967L6.21967 11.7197L7.28033 12.7803L11.5303 8.53033L10.4697 7.46967Z"></path>
+            <path class="octicon-chevrow-stem" stroke="currentColor" d="M1.75 8H11" stroke-width="1.5" stroke-linecap="round"></path>
+          </svg>
+        </span>
+      </span>
+    </div>
+  </a>
+</div>
+
+<div class="col-sm-6 mb-3">
+  <a class="gloss-c-content-block gloss-c-content-block--underlined" href="https://github.com/customer-stories/autodesk">
+    <div class="d-flex flex-items-center flex-justify-start mb-1 col-6" style="height: 64px">
+      <img src="/assets/img/logos/autodesk.svg" alt="Autodesk" class="width-fit pb-3" style="max-height: 64px">
+    </div>
+
+    <div class="gloss-c-pairing-2">
+      <p>Improving collaboration and reliability in the cloud.</p>
+
+      <span class="gloss-c-link">
+        <span class="gloss-c-link__text">
+          Explore Autodesk<svg class="octicon octicon-chevrow" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path class="octicon-chevrow-right" fill="currentColor" d="M7.28033 3.21967C6.98744 2.92678 6.51256 2.92678 6.21967 3.21967C5.92678 3.51256 5.92678 3.98744 6.21967 4.28033L7.28033 3.21967ZM11 8L11.5303 8.53033C11.8232 8.23744 11.8232 7.76256 11.5303 7.46967L11 8ZM6.21967 11.7197C5.92678 12.0126 5.92678 12.4874 6.21967 12.7803C6.51256 13.0732 6.98744 13.0732 7.28033 12.7803L6.21967 11.7197ZM6.21967 4.28033L10.4697 8.53033L11.5303 7.46967L7.28033 3.21967L6.21967 4.28033ZM10.4697 7.46967L6.21967 11.7197L7.28033 12.7803L11.5303 8.53033L10.4697 7.46967Z"></path>
+            <path class="octicon-chevrow-stem" stroke="currentColor" d="M1.75 8H11" stroke-width="1.5" stroke-linecap="round"></path>
+          </svg>
+        </span>
+      </span>
+    </div>
+  </a>
+</div>
+
+</div>
+
+<div class="gloss-c-section-heading mt-8 mt-md-10 mb-4">
+  <div class="gloss-c-pairing-5">
+
+      <h2 class="col-8-max">
+        <span>
+          Start building your DevOps workflow
+        </span>
+      </h2>
+
+
+
+
+
+      <div class="mb-6 gloss-c-pairing-5">
+        <p>Whether you’re ready to dive in or still have questions, we’ve got you covered.</p>
+
+
+      </div>
+
+  </div>
+</div>
+
+
+<div class="d-flex flex-wrap gutter-condensed gutter-md gutter-lg-spacious">
+<div class="col-sm-6">
+
+    <a class="gloss-c-content-block" href="https://resources.github.com/devops/build-your-devops-practice-on-github/">
+
+    <div class="gloss-c-pairing-2">
+      <h3>Explore best practices</h3>
+
+      <div class="mb-6 gloss-c-pairing-5">
+        <p>Check out guides, how-to’s, and tips for shipping better software, faster.</p>
+
+        <span class="gloss-c-link">
+          <span class="gloss-c-link__text">
+            Learn more<svg class="octicon octicon-chevrow" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path class="octicon-chevrow-right" fill="currentColor" d="M7.28033 3.21967C6.98744 2.92678 6.51256 2.92678 6.21967 3.21967C5.92678 3.51256 5.92678 3.98744 6.21967 4.28033L7.28033 3.21967ZM11 8L11.5303 8.53033C11.8232 8.23744 11.8232 7.76256 11.5303 7.46967L11 8ZM6.21967 11.7197C5.92678 12.0126 5.92678 12.4874 6.21967 12.7803C6.51256 13.0732 6.98744 13.0732 7.28033 12.7803L6.21967 11.7197ZM6.21967 4.28033L10.4697 8.53033L11.5303 7.46967L7.28033 3.21967L6.21967 4.28033ZM10.4697 7.46967L6.21967 11.7197L7.28033 12.7803L11.5303 8.53033L10.4697 7.46967Z"></path>
+              <path class="octicon-chevrow-stem" stroke="currentColor" d="M1.75 8H11" stroke-width="1.5" stroke-linecap="round"></path>
+            </svg>
+          </span>
+        </span>
+      </div>
+    </div>
+
+    </a>
+
+</div>
+
+<div class="col-sm-6">
+    <a class="gloss-c-content-block" href="https://resources.github.com/demo/">
+
+    <div class="gloss-c-pairing-2">
+      <h3>Get a GitHub demo</h3>
+
+      <div class="mb-6 gloss-c-pairing-5">
+        <p>See how world-class CI/CD, automation, and security can support your workflow.</p>
+
+        <span class="gloss-c-link">
+          <span class="gloss-c-link__text">
+            Request a demo<svg class="octicon octicon-chevrow" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path class="octicon-chevrow-right" fill="currentColor" d="M7.28033 3.21967C6.98744 2.92678 6.51256 2.92678 6.21967 3.21967C5.92678 3.51256 5.92678 3.98744 6.21967 4.28033L7.28033 3.21967ZM11 8L11.5303 8.53033C11.8232 8.23744 11.8232 7.76256 11.5303 7.46967L11 8ZM6.21967 11.7197C5.92678 12.0126 5.92678 12.4874 6.21967 12.7803C6.51256 13.0732 6.98744 13.0732 7.28033 12.7803L6.21967 11.7197ZM6.21967 4.28033L10.4697 8.53033L11.5303 7.46967L7.28033 3.21967L6.21967 4.28033ZM10.4697 7.46967L6.21967 11.7197L7.28033 12.7803L11.5303 8.53033L10.4697 7.46967Z"></path>
+              <path class="octicon-chevrow-stem" stroke="currentColor" d="M1.75 8H11" stroke-width="1.5" stroke-linecap="round"></path>
+            </svg>
+          </span>
+        </span>
+      </div>
+    </div>
+
+    </a>
+
+</div>
+
+</div>
+
+
+<div class="modal fade seo-form" id="devopsForm" tabindex="-1" role="dialog" aria-labelledby="devopsFormLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable" role="document">
+    <div class="modal-content p-4 color-text-primary text-left">
+      <button type="button" class="btn-octicon position-absolute top-0 right-0 mr-2 mt-2 border-0" data-dismiss="modal">
+        <svg aria-label="Close" class="octicon octicon-x" viewBox="0 0 16 16" version="1.1" width="16" height="16" role="img"><path fill-rule="evenodd" d="M3.72 3.72a.75.75 0 011.06 0L8 6.94l3.22-3.22a.75.75 0 111.06 1.06L9.06 8l3.22 3.22a.75.75 0 11-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 01-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 010-1.06z"></path></svg>
+      </button>
+
+      <form id="eloquaForm" name="ContentReg_TemplateForm" method="post" action="https://s88570519.t.eloqua.com/e/f2" novalidate>
+        <input value="ContentReg_TemplateForm" type="hidden" name="elqFormName">
+        <input value="88570519" type="hidden" name="elqSiteId">
+        <input name="elqCampaignId" type="hidden">
+
+        <fieldset>
+          <dl class="form-group my-0">
+            <dt>
+              <label for="name_devopsForm" class="required f5 text-bold">
+                Name
+              </label>
+            </dt>
+            <dd>
+              <input id="name_devopsForm" name="fullName1" type="text" class="form-control form-control-lg input-block" placeholder="First and last name" required>
+              <span class="form-control-invalid-text">Your full name is required.</span>
+            </dd>
+          </dl>
+
+          <div class="d-md-flex flex-wrap gutter-md-condensed">
+            <dl class="col-md-6 form-group mb-0">
+              <dt>
+                <label for="email_devopsForm" class="required f5 text-bold">
+                  Work email
+                </label>
+              </dt>
+              <dd>
+                <input id="email_devopsForm" name="emailAddress" type="email" class="form-control form-control-lg input-block" placeholder="you@example.com" required>
+                <span class="form-control-invalid-text">A valid email address is required.</span>
+              </dd>
+            </dl>
+
+            <dl class="col-md-6 form-group mb-0">
+              <dt>
+                <label for="phone_devopsForm" class="required f5 text-bold">
+                  Phone number (optional)
+                </label>
+              </dt>
+              <dd>
+                <input id="phone_devopsForm" name="phone" type="text" class="form-control form-control-lg input-block" placeholder="Including country code">
+                <span class="form-control-invalid-text">A phone number is required.</span>
+              </dd>
+            </dl>
+          </div>
+
+          <dl class="form-group mb-0">
+            <dt>
+              <label for="country_devopsForm" class="required f5 text-bold">
+                Country
+              </label>
+            </dt>
+            <dd>
+              <select id="country_devopsForm" required name="country" class="input-block form-select form-select-lg" onchange="showState_devopsForm()" required>
+                <option value="">
+
+  Please select
+
+</option>
+<option value="US">
+  United States
+</option>
+<option value="CA">
+  Canada
+</option>
+<option value="IN">
+  India
+</option>
+<option value="NL">
+  Netherlands
+</option>
+<option value="AU">
+  Australia
+</option>
+<option value="ZA">
+  South Africa
+</option>
+<option value="FR">
+  France
+</option>
+<option value="DE">
+  Germany
+</option>
+<option value="SG">
+  Singapore
+</option>
+<option value="SE">
+  Sweden
+</option>
+<option value="BR">
+  Brazil
+</option>
+<option value="GB">
+  United Kingdom
+</option>
+<option value="">
+  --------------
+</option>
+<option value="AF">
+  Afghanistan
+</option>
+<option value="AX">
+  Åland Islands
+</option>
+<option value="AL">
+  Albania
+</option>
+<option value="DZ">
+  Algeria
+</option>
+<option value="AS">
+  American Samoa
+</option>
+<option value="AD">
+  Andorra
+</option>
+<option value="AO">
+  Angola
+</option>
+<option value="AI">
+  Anguilla
+</option>
+<option value="AQ">
+  Antarctica
+</option>
+<option value="AG">
+  Antigua and Barbuda
+</option>
+<option value="AR">
+  Argentina
+</option>
+<option value="AM">
+  Armenia
+</option>
+<option value="AW">
+  Aruba
+</option>
+<option value="AU">
+  Australia
+</option>
+<option value="AT">
+  Austria
+</option>
+<option value="AZ">
+  Azerbaijan
+</option>
+<option value="BS">
+  Bahamas
+</option>
+<option value="BH">
+  Bahrain
+</option>
+<option value="BD">
+  Bangladesh
+</option>
+<option value="BB">
+  Barbados
+</option>
+<option value="BY">
+  Belarus
+</option>
+<option value="BE">
+  Belgium
+</option>
+<option value="BZ">
+  Belize
+</option>
+<option value="BJ">
+  Benin
+</option>
+<option value="BM">
+  Bermuda
+</option>
+<option value="BT">
+  Bhutan
+</option>
+<option value="BO">
+  Bolivia
+</option>
+<option value="BA">
+  Bosnia and Herzegovina
+</option>
+<option value="BW">
+  Botswana
+</option>
+<option value="BV">
+  Bouvet Island
+</option>
+<option value="BR">
+  Brazil
+</option>
+<option value="IO">
+  Brit/Indian Ocean Terr.
+</option>
+<option value="BN">
+  Brunei Darussalam
+</option>
+<option value="BG">
+  Bulgaria
+</option>
+<option value="BF">
+  Burkina Faso
+</option>
+<option value="BI">
+  Burundi
+</option>
+<option value="KH">
+  Cambodia
+</option>
+<option value="CM">
+  Cameroon
+</option>
+<option value="CA">
+  Canada
+</option>
+<option value="CV">
+  Cape Verde
+</option>
+<option value="KY">
+  Cayman Islands
+</option>
+<option value="CF">
+  Central African Republic
+</option>
+<option value="TD">
+  Chad
+</option>
+<option value="CL">
+  Chile
+</option>
+<option value="CN">
+  China
+</option>
+<option value="CX">
+  Christmas Island
+</option>
+<option value="CC">
+  Cocos (Keeling) Islands
+</option>
+<option value="CO">
+  Colombia
+</option>
+<option value="KM">
+  Comoros
+</option>
+<option value="CG">
+  Congo
+</option>
+<option value="CD">
+  Congo, The Dem. Republic Of
+</option>
+<option value="CK">
+  Cook Islands
+</option>
+<option value="CR">
+  Costa Rica
+</option>
+<option value="CI">
+  Côte d'Ivoire
+</option>
+<option value="HR">
+  Croatia
+</option>
+<option value="CU">
+  Cuba
+</option>
+<option value="CY">
+  Cyprus
+</option>
+<option value="CZ">
+  Czech Republic
+</option>
+<option value="DK">
+  Denmark
+</option>
+<option value="DJ">
+  Djibouti
+</option>
+<option value="DM">
+  Dominica
+</option>
+<option value="DO">
+  Dominican Republic
+</option>
+<option value="EC">
+  Ecuador
+</option>
+<option value="EG">
+  Egypt
+</option>
+<option value="SV">
+  El Salvador
+</option>
+<option value="GQ">
+  Equatorial Guinea
+</option>
+<option value="ER">
+  Eritrea
+</option>
+<option value="EE">
+  Estonia
+</option>
+<option value="ET">
+  Ethiopia
+</option>
+<option value="FK">
+  Falkland Islands
+</option>
+<option value="FO">
+  Faroe Islands
+</option>
+<option value="FJ">
+  Fiji
+</option>
+<option value="FI">
+  Finland
+</option>
+<option value="FR">
+  France
+</option>
+<option value="GF">
+  French Guiana
+</option>
+<option value="PF">
+  French Polynesia
+</option>
+<option value="TF">
+  French Southern Terr.
+</option>
+<option value="GA">
+  Gabon
+</option>
+<option value="GM">
+  Gambia
+</option>
+<option value="GE">
+  Georgia
+</option>
+<option value="DE">
+  Germany
+</option>
+<option value="GH">
+  Ghana
+</option>
+<option value="GI">
+  Gibraltar
+</option>
+<option value="GB">
+  United Kingdom
+</option>
+<option value="GR">
+  Greece
+</option>
+<option value="GL">
+  Greenland
+</option>
+<option value="GD">
+  Grenada
+</option>
+<option value="GP">
+  Guadeloupe
+</option>
+<option value="GU">
+  Guam
+</option>
+<option value="GT">
+  Guatemala
+</option>
+<option value="GN">
+  Guinea
+</option>
+<option value="GW">
+  Guinea-Bissau
+</option>
+<option value="GY">
+  Guyana
+</option>
+<option value="HT">
+  Haiti
+</option>
+<option value="HM">
+  Heard/McDonald Isls.
+</option>
+<option value="HN">
+  Honduras
+</option>
+<option value="HK">
+  Hong Kong
+</option>
+<option value="HU">
+  Hungary
+</option>
+<option value="IS">
+  Iceland
+</option>
+<option value="IN">
+  India
+</option>
+<option value="ID">
+  Indonesia
+</option>
+<option value="IR">
+  Iran
+</option>
+<option value="IQ">
+  Iraq
+</option>
+<option value="IE">
+  Ireland
+</option>
+<option value="IL">
+  Israel
+</option>
+<option value="IT">
+  Italy
+</option>
+<option value="JM">
+  Jamaica
+</option>
+<option value="JP">
+  Japan
+</option>
+<option value="JO">
+  Jordan
+</option>
+<option value="KZ">
+  Kazakhstan
+</option>
+<option value="KE">
+  Kenya
+</option>
+<option value="KI">
+  Kiribati
+</option>
+<option value="KP">
+  Korea (North)
+</option>
+<option value="KR">
+  Korea (South)
+</option>
+<option value="KW">
+  Kuwait
+</option>
+<option value="KG">
+  Kyrgyzstan
+</option>
+<option value="LA">
+  Laos
+</option>
+<option value="LV">
+  Latvia
+</option>
+<option value="LB">
+  Lebanon
+</option>
+<option value="LS">
+  Lesotho
+</option>
+<option value="LR">
+  Liberia
+</option>
+<option value="LY">
+  Libya
+</option>
+<option value="LI">
+  Liechtenstein
+</option>
+<option value="LT">
+  Lithuania
+</option>
+<option value="LU">
+  Luxembourg
+</option>
+<option value="MO">
+  Macau
+</option>
+<option value="MK">
+  Macedonia
+</option>
+<option value="MG">
+  Madagascar
+</option>
+<option value="MW">
+  Malawi
+</option>
+<option value="MY">
+  Malaysia
+</option>
+<option value="MV">
+  Maldives
+</option>
+<option value="ML">
+  Mali
+</option>
+<option value="MT">
+  Malta
+</option>
+<option value="MH">
+  Marshall Islands
+</option>
+<option value="MQ">
+  Martinique
+</option>
+<option value="MR">
+  Mauritania
+</option>
+<option value="MU">
+  Mauritius
+</option>
+<option value="YT">
+  Mayotte
+</option>
+<option value="MX">
+  Mexico
+</option>
+<option value="FM">
+  Micronesia
+</option>
+<option value="MD">
+  Moldova
+</option>
+<option value="MC">
+  Monaco
+</option>
+<option value="MN">
+  Mongolia
+</option>
+<option value="MS">
+  Montserrat
+</option>
+<option value="MA">
+  Morocco
+</option>
+<option value="MZ">
+  Mozambique
+</option>
+<option value="MM">
+  Myanmar
+</option>
+<option value="MP">
+  N. Mariana Isls.
+</option>
+<option value="NA">
+  Namibia
+</option>
+<option value="NR">
+  Nauru
+</option>
+<option value="NP">
+  Nepal
+</option>
+<option value="NL">
+  Netherlands
+</option>
+<option value="AN">
+  Netherlands Antilles
+</option>
+<option value="NC">
+  New Caledonia
+</option>
+<option value="NZ">
+  New Zealand
+</option>
+<option value="NI">
+  Nicaragua
+</option>
+<option value="NE">
+  Niger
+</option>
+<option value="NG">
+  Nigeria
+</option>
+<option value="NU">
+  Niue
+</option>
+<option value="NF">
+  Norfolk Island
+</option>
+<option value="NO">
+  Norway
+</option>
+<option value="OM">
+  Oman
+</option>
+<option value="PK">
+  Pakistan
+</option>
+<option value="PW">
+  Palau
+</option>
+<option value="PS">
+  Palestinian Territory, Occupied
+</option>
+<option value="PA">
+  Panama
+</option>
+<option value="PG">
+  Papua New Guinea
+</option>
+<option value="PY">
+  Paraguay
+</option>
+<option value="PE">
+  Peru
+</option>
+<option value="PH">
+  Philippines
+</option>
+<option value="PN">
+  Pitcairn
+</option>
+<option value="PL">
+  Poland
+</option>
+<option value="PT">
+  Portugal
+</option>
+<option value="PR">
+  Puerto Rico
+</option>
+<option value="QA">
+  Qatar
+</option>
+<option value="RE">
+  Reunion
+</option>
+<option value="RO">
+  Romania
+</option>
+<option value="RU">
+  Russian Federation
+</option>
+<option value="RW">
+  Rwanda
+</option>
+<option value="KN">
+  Saint Kitts and Nevis
+</option>
+<option value="LC">
+  Saint Lucia
+</option>
+<option value="WS">
+  Samoa
+</option>
+<option value="SM">
+  San Marino
+</option>
+<option value="ST">
+  Sao Tome/Principe
+</option>
+<option value="SA">
+  Saudi Arabia
+</option>
+<option value="SN">
+  Senegal
+</option>
+<option value="CS">
+  Serbia and Montenegro
+</option>
+<option value="SC">
+  Seychelles
+</option>
+<option value="SL">
+  Sierra Leone
+</option>
+<option value="SG">
+  Singapore
+</option>
+<option value="SK">
+  Slovak Republic
+</option>
+<option value="SI">
+  Slovenia
+</option>
+<option value="SB">
+  Solomon Islands
+</option>
+<option value="SO">
+  Somalia
+</option>
+<option value="ZA">
+  South Africa
+</option>
+<option value="ES">
+  Spain
+</option>
+<option value="LK">
+  Sri Lanka
+</option>
+<option value="SH">
+  St. Helena
+</option>
+<option value="PM">
+  St. Pierre and Miquelon
+</option>
+<option value="VC">
+  St. Vincent and Grenadines
+</option>
+<option value="SD">
+  Sudan
+</option>
+<option value="SR">
+  Suriname
+</option>
+<option value="SJ">
+  Svalbard/Jan Mayen Isls.
+</option>
+<option value="SZ">
+  Swaziland
+</option>
+<option value="SE">
+  Sweden
+</option>
+<option value="CH">
+  Switzerland
+</option>
+<option value="SY">
+  Syria
+</option>
+<option value="TW">
+  Taiwan
+</option>
+<option value="TJ">
+  Tajikistan
+</option>
+<option value="TZ">
+  Tanzania
+</option>
+<option value="TH">
+  Thailand
+</option>
+<option value="TL">
+  Timor-Leste
+</option>
+<option value="TG">
+  Togo
+</option>
+<option value="TK">
+  Tokelau
+</option>
+<option value="TO">
+  Tonga
+</option>
+<option value="TT">
+  Trinidad and Tobago
+</option>
+<option value="TN">
+  Tunisia
+</option>
+<option value="TR">
+  Turkey
+</option>
+<option value="TM">
+  Turkmenistan
+</option>
+<option value="TC">
+  Turks/Caicos Isls.
+</option>
+<option value="TV">
+  Tuvalu
+</option>
+<option value="UG">
+  Uganda
+</option>
+<option value="UA">
+  Ukraine
+</option>
+<option value="AE">
+  United Arab Emirates
+</option>
+<option value="US">
+  United States
+</option>
+<option value="UM">
+  US Minor Outlying Is.
+</option>
+<option value="UY">
+  Uruguay
+</option>
+<option value="UZ">
+  Uzbekistan
+</option>
+<option value="VU">
+  Vanuatu
+</option>
+<option value="VA">
+  Vatican City
+</option>
+<option value="VE">
+  Venezuela
+</option>
+<option value="VN">
+  Viet Nam
+</option>
+<option value="VG">
+  Virgin Islands (British)
+</option>
+<option value="VI">
+  Virgin Islands (U.S.)
+</option>
+<option value="WF">
+  Wallis/Futuna Isls.
+</option>
+<option value="EH">
+  Western Sahara
+</option>
+<option value="YE">
+  Yemen
+</option>
+<option value="ZM">
+  Zambia
+</option>
+<option value="ZW">
+  Zimbabwe
+</option>
+
+              </select>
+              <span class="form-control-invalid-text">A country is required.</span>
+            </dd>
+          </dl>
+
+          <dl class="form-group mt-3 mb-0" id="stateProv_devopsFormBlock"  style="display: none;">
+            <dt>
+              <label for="stateProv_devopsForm" class="required f5 text-bold">
+                State/Province
+              </label>
+            </dt>
+            <dd>
+              <select id="stateProv_devopsForm" name="stateProv" class="stateProv input-block form-select form-select-lg">
+                <option value="">
+  Please select
+</option>
+<option value="AK">
+  Alaska
+</option>
+<option value="AL">
+  Alabama
+</option>
+<option value="AR">
+  Arkansas
+</option>
+<option value="AS">
+  American Samoa
+</option>
+<option value="AZ">
+  Arizona
+</option>
+<option value="CA">
+  California
+</option>
+<option value="CO">
+  Colorado
+</option>
+<option value="CT">
+  Connecticut
+</option>
+<option value="DC">
+  D.C.
+</option>
+<option value="DE">
+  Delaware
+</option>
+<option value="FL">
+  Florida
+</option>
+<option value="FM">
+  Micronesia
+</option>
+<option value="GA">
+  Georgia
+</option>
+<option value="GU">
+  Guam
+</option>
+<option value="HI">
+  Hawaii
+</option>
+<option value="IA">
+  Iowa
+</option>
+<option value="ID">
+  Idaho
+</option>
+<option value="IL">
+  Illinois
+</option>
+<option value="IN">
+  Indiana
+</option>
+<option value="KS">
+  Kansas
+</option>
+<option value="KY">
+  Kentucky
+</option>
+<option value="LA">
+  Louisiana
+</option>
+<option value="MA">
+  Massachusetts
+</option>
+<option value="MD">
+  Maryland
+</option>
+<option value="ME">
+  Maine
+</option>
+<option value="MH">
+  Marshall Islands
+</option>
+<option value="MI">
+  Michigan
+</option>
+<option value="MN">
+  Minnesota
+</option>
+<option value="MO">
+  Missouri
+</option>
+<option value="MP">
+  Marianas
+</option>
+<option value="MS">
+  Mississippi
+</option>
+<option value="MT">
+  Montana
+</option>
+<option value="NC">
+  North Carolina
+</option>
+<option value="ND">
+  North Dakota
+</option>
+<option value="NE">
+  Nebraska
+</option>
+<option value="NH">
+  New Hampshire
+</option>
+<option value="NJ">
+  New Jersey
+</option>
+<option value="NM">
+  New Mexico
+</option>
+<option value="NV">
+  Nevada
+</option>
+<option value="NY">
+  New York
+</option>
+<option value="OH">
+  Ohio
+</option>
+<option value="OK">
+  Oklahoma
+</option>
+<option value="OR">
+  Oregon
+</option>
+<option value="PA">
+  Pennsylvania
+</option>
+<option value="PR">
+  Puerto Rico
+</option>
+<option value="PW">
+  Palau
+</option>
+<option value="RI">
+  Rhode Island
+</option>
+<option value="SC">
+  South Carolina
+</option>
+<option value="SD">
+  South Dakota
+</option>
+<option value="TN">
+  Tennessee
+</option>
+<option value="TX">
+  Texas
+</option>
+<option value="UT">
+  Utah
+</option>
+<option value="VA">
+  Virginia
+</option>
+<option value="VI">
+  Virgin Islands
+</option>
+<option value="VT">
+  Vermont
+</option>
+<option value="WA">
+  Washington
+</option>
+<option value="WI">
+  Wisconsin
+</option>
+<option value="WV">
+  West Virginia
+</option>
+<option value="WY">
+  Wyoming
+</option>
+<option value="AA">
+  Military Americas
+</option>
+<option value="AE">
+  Military Europe/ME/Canada
+</option>
+<option value="AP">
+  Military Pacific
+</option>
+<option value="AB">
+  Alberta
+</option>
+<option value="MB">
+  Manitoba
+</option>
+<option value="BC">
+  British Columbia
+</option>
+<option value="NB">
+  New Brunswick
+</option>
+<option value="NL">
+  Newfoundland and Labrador
+</option>
+<option value="NS">
+  Nova Scotia
+</option>
+<option value="NT">
+  Northwest Territories
+</option>
+<option value="NU">
+  Nunavut
+</option>
+<option value="ON">
+  Ontario
+</option>
+<option value="PE">
+  Prince Edward Island
+</option>
+<option value="QC">
+  Quebec
+</option>
+<option value="SK">
+  Saskatchewan
+</option>
+<option value="YT">
+  Yukon Territory
+</option>
+
+              </select>
+              <span class="form-control-invalid-text">A state/province is required.</span>
+            </dd>
+          </dl>
+
+              <div id="optincheckbox" class="form-checkbox f5 mb-3">
+  <label>
+    <input id="optincheckbox-input" name="marketingEmailOptIn1" type="checkbox" value="True">
+    Yes, I would like to be emailed with the latest news and happenings, products, and special offers from GitHub. If you change your mind, you can unsubscribe at any time.  <a href="https://docs.github.com/en/github/site-policy/github-privacy-statement">GitHub Privacy Statement</a>
+  </label>
+</div>
+
+
+          <input type="hidden" name="elqCustomerGUID" value="">
+          <input type="hidden" name="elqCookieWrite" value="0">
+          <input id="sfcampaignid_devopsForm" type="hidden" name="sfcampaignid" value="7013o000002ShPvAAK">
+          <input id="source_devopsForm" type="hidden" name="source" value="2022q1-site-ww-DevOps-SEO-WhatIsDevOps">
+
+          <button type="submit" class="btn-mktg-fluid btn-purple-mktg-fluid f3-mktg-fluid mt-4 px-8 text-center" style="width: 100%" data-analytics-click="GitHub Resources, submit Request a demo, modal submit button" >
+            Request a demo
+          </button>
+          <a href="https://github.com/organizations/enterprise_plan" type="button" class="btn-mktg-fluid btn-purple-mktg-fluid f3-mktg-fluid mt-4 px-8 text-center" style="width: 100%" role="button">Free Trial</a>
+        </fieldset>
+      </form>
+    </div>
+  </div>
+</div>
+
+<script>
+  var qs = (function(a) {
+      if (a == "") return {};
+      var b = {};
+      for (var i = 0; i < a.length; ++i)
+      {
+          var p=a[i].split('=', 2);
+          if (p.length == 1)
+              b[p[0]] = "";
+          else
+              b[p[0]] = decodeURIComponent(p[1].replace(/\+/g, " "));
+      }
+      return b;
+  })(window.location.search.substr(1).split('&'));
+
+  function showState_devopsForm() {
+    var y = document.getElementById("country_devopsForm").value;
+    var x = document.getElementById("stateProv_devopsFormBlock");
+    if (y == 'US' || y == 'CA') {
+      x.style.display="block";
+    } else {
+      x.style.display="none";
+    }
+  }
+
+  if (qs["scid"]) {
+    var scid = qs["scid"]
+    document.getElementsByName("sfcampaignid")[0].value = scid ;
+  }
+
+  if (!doNotTrackEnabled) {
+    var form = document.getElementById('eloquaForm');
+  }
+
+  var form = document.getElementById("eloquaForm");
+  if(form) {
+    var captcha = document.querySelector('.g-recaptcha').cloneNode(true);
+    form.appendChild(captcha);
+  }
+</script>
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="/assets/js/Bootstrap-modal.v4.4.1.js"></script>
+
+
+<!--
+  ***
+  Page content begins above this block
+  ***
+-->
+
+</div>
+
+<script src="/assets/js/utm-param.js"></script>
+<footer class="footer mt-6">
+  <div class="container-xl p-responsive">
+    <div class="d-flex flex-wrap py-5 mb-5">
+      <div class="col-12 col-lg-4 mb-5">
+        <a href="https://github.com/" data-ga-click="GitHub Resources, go to home, github resources, go" class="color-text-primary" aria-label="Go to GitHub homepage">
+          <svg height="30" class="octicon octicon-logo-github" viewBox="0 0 45 16" version="1.1" width="84" aria-hidden="true"><path fill-rule="evenodd" d="M18.53 12.03h-.02c.009 0 .015.01.024.011h.006l-.01-.01zm.004.011c-.093.001-.327.05-.574.05-.78 0-1.05-.36-1.05-.83V8.13h1.59c.09 0 .16-.08.16-.19v-1.7c0-.09-.08-.17-.16-.17h-1.59V3.96c0-.08-.05-.13-.14-.13h-2.16c-.09 0-.14.05-.14.13v2.17s-1.09.27-1.16.28c-.08.02-.13.09-.13.17v1.36c0 .11.08.19.17.19h1.11v3.28c0 2.44 1.7 2.69 2.86 2.69.53 0 1.17-.17 1.27-.22.06-.02.09-.09.09-.16v-1.5a.177.177 0 00-.146-.18zM42.23 9.84c0-1.81-.73-2.05-1.5-1.97-.6.04-1.08.34-1.08.34v3.52s.49.34 1.22.36c1.03.03 1.36-.34 1.36-2.25zm2.43-.16c0 3.43-1.11 4.41-3.05 4.41-1.64 0-2.52-.83-2.52-.83s-.04.46-.09.52c-.03.06-.08.08-.14.08h-1.48c-.1 0-.19-.08-.19-.17l.02-11.11c0-.09.08-.17.17-.17h2.13c.09 0 .17.08.17.17v3.77s.82-.53 2.02-.53l-.01-.02c1.2 0 2.97.45 2.97 3.88zm-8.72-3.61h-2.1c-.11 0-.17.08-.17.19v5.44s-.55.39-1.3.39-.97-.34-.97-1.09V6.25c0-.09-.08-.17-.17-.17h-2.14c-.09 0-.17.08-.17.17v5.11c0 2.2 1.23 2.75 2.92 2.75 1.39 0 2.52-.77 2.52-.77s.05.39.08.45c.02.05.09.09.16.09h1.34c.11 0 .17-.08.17-.17l.02-7.47c0-.09-.08-.17-.19-.17zm-23.7-.01h-2.13c-.09 0-.17.09-.17.2v7.34c0 .2.13.27.3.27h1.92c.2 0 .25-.09.25-.27V6.23c0-.09-.08-.17-.17-.17zm-1.05-3.38c-.77 0-1.38.61-1.38 1.38 0 .77.61 1.38 1.38 1.38.75 0 1.36-.61 1.36-1.38 0-.77-.61-1.38-1.36-1.38zm16.49-.25h-2.11c-.09 0-.17.08-.17.17v4.09h-3.31V2.6c0-.09-.08-.17-.17-.17h-2.13c-.09 0-.17.08-.17.17v11.11c0 .09.09.17.17.17h2.13c.09 0 .17-.08.17-.17V8.96h3.31l-.02 4.75c0 .09.08.17.17.17h2.13c.09 0 .17-.08.17-.17V2.6c0-.09-.08-.17-.17-.17zM8.81 7.35v5.74c0 .04-.01.11-.06.13 0 0-1.25.89-3.31.89-2.49 0-5.44-.78-5.44-5.92S2.58 1.99 5.1 2c2.18 0 3.06.49 3.2.58.04.05.06.09.06.14L7.94 4.5c0 .09-.09.2-.2.17-.36-.11-.9-.33-2.17-.33-1.47 0-3.05.42-3.05 3.73s1.5 3.7 2.58 3.7c.92 0 1.25-.11 1.25-.11v-2.3H4.88c-.11 0-.19-.08-.19-.17V7.35c0-.09.08-.17.19-.17h3.74c.11 0 .19.08.19.17z"></path></svg>
+        </a>
+      </div>
+
+        <div class="col-6 col-sm-3 col-lg-2 mb-6 mb-md-2 pr-3 pr-lg-0 pl-lg-4">
+          <h2 class="h5 mb-3 text-mono color-text-tertiary text-normal">
+            Product
+          </h2>
+          <ul class="list-style-none text-gray f5">
+
+            <li class="lh-condensed mb-3">
+              <a href="https://github.com/features" data-ga-click="GitHub Resources, go to features, github resources footer" class="Link--secondary">Features</a>
+            </li>
+
+            <li class="lh-condensed mb-3">
+              <a href="https://github.com/security" data-ga-click="GitHub Resources, go to security, github resources footer" class="Link--secondary">Security</a>
+            </li>
+
+            <li class="lh-condensed mb-3">
+              <a href="https://github.com/team" data-ga-click="GitHub Resources, go to team, github resources footer" class="Link--secondary">Team</a>
+            </li>
+
+            <li class="lh-condensed mb-3">
+              <a href="https://github.com/enterprise" data-ga-click="GitHub Resources, go to enterprise, github resources footer" class="Link--secondary">Enterprise</a>
+            </li>
+
+            <li class="lh-condensed mb-3">
+              <a href="https://github.com/customer-stories?type=enterprise" data-ga-click="GitHub Resources, go to customer stories, github resources footer" class="Link--secondary">Customer stories</a>
+            </li>
+
+            <li class="lh-condensed mb-3">
+              <a href="https://github.com/readme" data-ga-click="GitHub Resources, go to the readme project, github resources footer" class="Link--secondary">The ReadME Project</a>
+            </li>
+
+            <li class="lh-condensed mb-3">
+              <a href="https://github.com/pricing" data-ga-click="GitHub Resources, go to pricing, github resources footer" class="Link--secondary">Pricing</a>
+            </li>
+
+            <li class="lh-condensed mb-3">
+              <a href="https://resources.github.com" data-ga-click="GitHub Resources, go to resources, github resources footer" class="Link--secondary">Resources</a>
+            </li>
+
+            <li class="lh-condensed mb-3">
+              <a href="" data-ga-click="GitHub Resources, go to roadmap, github resources footer" class="Link--secondary">Roadmap</a>
+            </li>
+
+          </ul>
+        </div>
+
+        <div class="col-6 col-sm-3 col-lg-2 mb-6 mb-md-2 pr-3 pr-lg-0 pl-lg-4">
+          <h2 class="h5 mb-3 text-mono color-text-tertiary text-normal">
+            Platform
+          </h2>
+          <ul class="list-style-none text-gray f5">
+
+            <li class="lh-condensed mb-3">
+              <a href="https://docs.github.com" data-ga-click="GitHub Resources, go to developer api, github resources footer" class="Link--secondary">Developer API</a>
+            </li>
+
+            <li class="lh-condensed mb-3">
+              <a href="https://partner.github.com" data-ga-click="GitHub Resources, go to partners, github resources footer" class="Link--secondary">Partners</a>
+            </li>
+
+            <li class="lh-condensed mb-3">
+              <a href="https://atom.io" data-ga-click="GitHub Resources, go to atom, github resources footer" class="Link--secondary">Atom</a>
+            </li>
+
+            <li class="lh-condensed mb-3">
+              <a href="https://www.electronjs.org" data-ga-click="GitHub Resources, go to electron, github resources footer" class="Link--secondary">Electron</a>
+            </li>
+
+            <li class="lh-condensed mb-3">
+              <a href="https://desktop.github.com" data-ga-click="GitHub Resources, go to github desktop, github resources footer" class="Link--secondary">GitHub Desktop</a>
+            </li>
+
+          </ul>
+        </div>
+
+        <div class="col-6 col-sm-3 col-lg-2 mb-6 mb-md-2 pr-3 pr-lg-0 pl-lg-4">
+          <h2 class="h5 mb-3 text-mono color-text-tertiary text-normal">
+            Support
+          </h2>
+          <ul class="list-style-none text-gray f5">
+
+            <li class="lh-condensed mb-3">
+              <a href="https://docs.github.com" data-ga-click="GitHub Resources, go to docs, github resources footer" class="Link--secondary">Docs</a>
+            </li>
+
+            <li class="lh-condensed mb-3">
+              <a href="https://github.community" data-ga-click="GitHub Resources, go to community forum, github resources footer" class="Link--secondary">Community Forum</a>
+            </li>
+
+            <li class="lh-condensed mb-3">
+              <a href="https://services.github.com" data-ga-click="GitHub Resources, go to professional services, github resources footer" class="Link--secondary">Professional Services</a>
+            </li>
+
+            <li class="lh-condensed mb-3">
+              <a href="https://lab.github.com" data-ga-click="GitHub Resources, go to learning lab, github resources footer" class="Link--secondary">Learning Lab</a>
+            </li>
+
+            <li class="lh-condensed mb-3">
+              <a href="https://www.githubstatus.com" data-ga-click="GitHub Resources, go to status, github resources footer" class="Link--secondary">Status</a>
+            </li>
+
+            <li class="lh-condensed mb-3">
+              <a href="https://support.github.com" data-ga-click="GitHub Resources, go to contact github, github resources footer" class="Link--secondary">Contact GitHub</a>
+            </li>
+
+          </ul>
+        </div>
+
+        <div class="col-6 col-sm-3 col-lg-2 mb-6 mb-md-2 pr-3 pr-lg-0 pl-lg-4">
+          <h2 class="h5 mb-3 text-mono color-text-tertiary text-normal">
+            Company
+          </h2>
+          <ul class="list-style-none text-gray f5">
+
+            <li class="lh-condensed mb-3">
+              <a href="https://github.com/about" data-ga-click="GitHub Resources, go to about, github resources footer" class="Link--secondary">About</a>
+            </li>
+
+            <li class="lh-condensed mb-3">
+              <a href="https://github.blog" data-ga-click="GitHub Resources, go to blog, github resources footer" class="Link--secondary">Blog</a>
+            </li>
+
+            <li class="lh-condensed mb-3">
+              <a href="https://github.com/about/careers" data-ga-click="GitHub Resources, go to careers, github resources footer" class="Link--secondary">Careers</a>
+            </li>
+
+            <li class="lh-condensed mb-3">
+              <a href="https://github.com/about/press" data-ga-click="GitHub Resources, go to press, github resources footer" class="Link--secondary">Press</a>
+            </li>
+
+            <li class="lh-condensed mb-3">
+              <a href="https://socialimpact.github.com" data-ga-click="GitHub Resources, go to social impact, github resources footer" class="Link--secondary">Social Impact</a>
+            </li>
+
+            <li class="lh-condensed mb-3">
+              <a href="https://shop.github.com" data-ga-click="GitHub Resources, go to shop, github resources footer" class="Link--secondary">Shop</a>
+            </li>
+
+          </ul>
+        </div>
+
+    </div>
+  </div>
+  <div class="color-bg-secondary">
+    <div class="container-xl p-responsive f6 py-4 d-sm-flex flex-justify-between flex-row-reverse flex-items-center">
+      <ul class="list-style-none d-flex flex-items-center mb-3 mb-sm-0 lh-condensed-ultra">
+        <li class="mr-3">
+          <a href="https://twitter.com/github" data-ga-click="GitHub Resources, go to Twitter, github resources, go" style="color: #959da5;">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 273.5 222.3" class="d-block" height="18"><path d="M273.5 26.3a109.77 109.77 0 0 1-32.2 8.8 56.07 56.07 0 0 0 24.7-31 113.39 113.39 0 0 1-35.7 13.6 56.1 56.1 0 0 0-97 38.4 54 54 0 0 0 1.5 12.8A159.68 159.68 0 0 1 19.1 10.3a56.12 56.12 0 0 0 17.4 74.9 56.06 56.06 0 0 1-25.4-7v.7a56.11 56.11 0 0 0 45 55 55.65 55.65 0 0 1-14.8 2 62.39 62.39 0 0 1-10.6-1 56.24 56.24 0 0 0 52.4 39 112.87 112.87 0 0 1-69.7 24 119 119 0 0 1-13.4-.8 158.83 158.83 0 0 0 86 25.2c103.2 0 159.6-85.5 159.6-159.6 0-2.4-.1-4.9-.2-7.3a114.25 114.25 0 0 0 28.1-29.1" fill="currentColor"></path></svg>
+
+            <span class="sr-only">GitHub on Twitter</span>
+          </a>
+        </li>
+        <li class="mr-3">
+          <a href="https://www.facebook.com/GitHub" data-ga-click="GitHub Resources, go to Facebook, github resources, go" style="color: #959da5;">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.3 15.4" class="d-block" height="18"><path d="M14.5 0H.8a.88.88 0 0 0-.8.9v13.6a.88.88 0 0 0 .8.9h7.3v-6h-2V7.1h2V5.4a2.87 2.87 0 0 1 2.5-3.1h.5a10.87 10.87 0 0 1 1.8.1v2.1h-1.3c-1 0-1.1.5-1.1 1.1v1.5h2.3l-.3 2.3h-2v5.9h3.9a.88.88 0 0 0 .9-.8V.8a.86.86 0 0 0-.8-.8z" fill="currentColor"></path></svg>
+
+            <span class="sr-only">GitHub on Facebook</span>
+          </a>
+        </li>
+        <li class="mr-3">
+          <a href="https://www.youtube.com/github" data-ga-click="GitHub Resources, go to YouTube, github resources, go" style="color: #959da5;">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.17 13.6" class="d-block" height="16"><path d="M18.77 2.13A2.4 2.4 0 0 0 17.09.42C15.59 0 9.58 0 9.58 0a57.55 57.55 0 0 0-7.5.4A2.49 2.49 0 0 0 .39 2.13 26.27 26.27 0 0 0 0 6.8a26.15 26.15 0 0 0 .39 4.67 2.43 2.43 0 0 0 1.69 1.71c1.52.42 7.5.42 7.5.42a57.69 57.69 0 0 0 7.51-.4 2.4 2.4 0 0 0 1.68-1.71 25.63 25.63 0 0 0 .4-4.67 24 24 0 0 0-.4-4.69zM7.67 9.71V3.89l5 2.91z" fill="currentColor"></path></svg>
+
+            <span class="sr-only">GitHub on YouTube</span>
+          </a>
+        </li>
+        <li class="mr-3 flex-self-start">
+          <a href="https://www.linkedin.com/company/github" data-ga-click="GitHub Resources, go to Linkedin, github resources, go" style="color: #959da5;">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19 18" class="d-block" height="18"><path d="M3.94 2A2 2 0 1 1 2 0a2 2 0 0 1 1.94 2zM4 5.48H0V18h4zm6.32 0H6.34V18h3.94v-6.57c0-3.66 4.77-4 4.77 0V18H19v-7.93c0-6.17-7.06-5.94-8.72-2.91z" fill="currentColor"></path></svg>
+
+            <span class="sr-only">GitHub on LinkedIn</span>
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/github" data-ga-click="GitHub Resources, go to github's org, github resources, go" style="color: #959da5;">
+            <svg height="20" class="octicon octicon-mark-github d-block" alt="" viewBox="0 0 16 16" version="1.1" width="20" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg>
+            <span class="sr-only">GitHub’s organization on GitHub</span>
+          </a>
+        </li>
+      </ul>
+      <ul class="list-style-none d-flex flex-wrap text-gray">
+        <li class="mr-3">&copy; 2021 GitHub, Inc.</li>
+
+          <li class="mr-3">
+            <a href="https://docs.github.com/en/github/site-policy/github-terms-of-service" data-ga-click="GitHub Resources, go to terms, github resources footer" class="Link--secondary">Terms</a>
+          </li>
+
+          <li class="mr-3">
+            <a href="https://docs.github.com/en/github/site-policy/github-privacy-statement" data-ga-click="GitHub Resources, go to privacy, github resources footer" class="Link--secondary">Privacy</a>
+          </li>
+
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+
+    </main>
+
+    <footer class="landing-page-footer text-center">
+  <div class="py-3 p-responsive landing-page-sub-footer text-mono">
+    <div class="container-xl d-sm-flex flex-items-center">
+      <ul class="col-sm-6 list-style-none d-flex flex-justify-between flex-md-justify-start flex-wrap pb-3 pb-sm-0 f5">
+        <li class="pr-md-6">
+          &copy; 2022 GitHub, Inc.
+        </li>
+
+        <li class="pr-md-4">
+          <a href="https://github.com/site/terms" class="footer-link">Terms</a>
+        </li>
+
+        <li>
+          <a href="https://github.com/site/privacy" class="footer-link">Privacy</a>
+        </li>
+      </ul>
+
+      <ul class="col-sm-6 list-style-none text-center d-flex flex-justify-between flex-md-justify-end flex-wrap flex-items-center">
+        <li class="mr-3">
+          <a href="https://twitter.com/github" data-analytics-click="Footer, go to Twitter, text:twitter" aria-label="GitHub on Twitter" title="GitHub on Twitter" class="footer-link">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 273.5 222.3"><path d="M273.5 26.3a109.77 109.77 0 0 1-32.2 8.8 56.07 56.07 0 0 0 24.7-31 113.39 113.39 0 0 1-35.7 13.6 56.1 56.1 0 0 0-97 38.4 54 54 0 0 0 1.5 12.8A159.68 159.68 0 0 1 19.1 10.3a56.12 56.12 0 0 0 17.4 74.9 56.06 56.06 0 0 1-25.4-7v.7a56.11 56.11 0 0 0 45 55 55.65 55.65 0 0 1-14.8 2 62.39 62.39 0 0 1-10.6-1 56.24 56.24 0 0 0 52.4 39 112.87 112.87 0 0 1-69.7 24 119 119 0 0 1-13.4-.8 158.83 158.83 0 0 0 86 25.2c103.2 0 159.6-85.5 159.6-159.6 0-2.4-.1-4.9-.2-7.3a114.25 114.25 0 0 0 28.1-29.1" fill="currentColor"/></svg>
+          </a>
+        </li>
+
+        <li class="mr-3">
+          <a href="https://www.facebook.com/GitHub" data-analytics-click="Footer, go to Facebook, text:facebook" aria-label="GitHub on Facebook" title="GitHub on Facebook" class="footer-link">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.3 15.4"><path d="M14.5 0H.8a.88.88 0 0 0-.8.9v13.6a.88.88 0 0 0 .8.9h7.3v-6h-2V7.1h2V5.4a2.87 2.87 0 0 1 2.5-3.1h.5a10.87 10.87 0 0 1 1.8.1v2.1h-1.3c-1 0-1.1.5-1.1 1.1v1.5h2.3l-.3 2.3h-2v5.9h3.9a.88.88 0 0 0 .9-.8V.8a.86.86 0 0 0-.8-.8z" fill="currentColor"/></svg>
+          </a>
+        </li>
+
+        <li class="mr-3">
+          <a href="https://www.youtube.com/github" data-analytics-click="Footer, go to YouTube, text:youtube" aria-label="GitHub on YouTube" title="GitHub on YouTube" class="footer-link">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.17 13.6"><path d="M18.77 2.13A2.4 2.4 0 0 0 17.09.42C15.59 0 9.58 0 9.58 0a57.55 57.55 0 0 0-7.5.4A2.49 2.49 0 0 0 .39 2.13 26.27 26.27 0 0 0 0 6.8a26.15 26.15 0 0 0 .39 4.67 2.43 2.43 0 0 0 1.69 1.71c1.52.42 7.5.42 7.5.42a57.69 57.69 0 0 0 7.51-.4 2.4 2.4 0 0 0 1.68-1.71 25.63 25.63 0 0 0 .4-4.67 24 24 0 0 0-.4-4.69zM7.67 9.71V3.89l5 2.91z" fill="currentColor"/></svg>
+          </a>
+        </li>
+
+        <li class="mr-3">
+          <a href="https://www.linkedin.com/company/github" data-analytics-click="Footer, go to LinkedIn, text:linkedin" aria-label="GitHub on LinkedIn" title="GitHub on LinkedIn" class="footer-link">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19 18"><path d="M3.94 2A2 2 0 1 1 2 0a2 2 0 0 1 1.94 2zM4 5.48H0V18h4zm6.32 0H6.34V18h3.94v-6.57c0-3.66 4.77-4 4.77 0V18H19v-7.93c0-6.17-7.06-5.94-8.72-2.91z" fill="currentColor"/></svg>
+          </a>
+        </li>
+
+        <li class="mr-3">
+          <a href="https://github.com/github" data-analytics-click="Footer, go to github's org, text:github" aria-label="GitHub's organization" title="GitHub's organization" class="footer-link">
+            <svg height="20" class="octicon octicon-mark-github d-block" aria-label="GitHub-logo" viewBox="0 0 16 16" version="1.1" width="20" role="img"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+<script>
+  var qs = (function(a) {
+    if (a == "") return {};
+    var b = {};
+    for (var i = 0; i < a.length; ++i) {
+      var p = a[i].split('=', 2);
+      if (p.length == 1)
+        b[p[0]] = "";
+      else
+        b[p[0]] = decodeURIComponent(p[1].replace(/\+/g, " "));
+    }
+    return b;
+  })(window.location.search.substr(1).split('&'));
+
+  function showStateStudy() {
+    var y = document.getElementById("countryStudy").value;
+    var x = document.getElementById("stateProvStudyBlock");
+    if (y == 'US' || y == 'CA') {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  }
+
+  function showOther(radioid) {
+    var y = radioid;
+    var x = document.getElementById("other-text-block");
+    if (y == 'Other') {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  }
+
+  if (qs["scid"]) {
+    var scid = qs["scid"]
+    document.getElementsByName("sfcampaignid")[0].value = scid;
+  }
+
+  if (!doNotTrackEnabled) {
+    var form = document.getElementById('eloquaForm');
+  }
+
+</script>
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="/assets/js/Bootstrap-modal.v4.4.1.js"></script>
+
+    <script src="/assets/js/github.js"></script>
+<script src="/assets/js/github/header.js"></script>
+<script src="/assets/js/bundle.js"></script>
+
+
+  <script src="/assets/js/marketing.js"></script>
+
+
+
+
+  </body>
+</html>
